@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--The drawer items below have been categorized according to headers-->
+    <item
+        android:id="@+id/navigation_item_1"
+        android:title="Recovery Tools">
+        <menu>
+            <item
+                android:id="@+id/item_withdrawals"
+                android:checkable="true"
+                android:icon="@drawable/ic_scale_balance"
+                android:title="Withdrawal Scales"
+                android:color="@color/colorIcons"/>
+            <item
+                android:id="@+id/item_shame"
+                android:checkable="true"
+                android:icon="@drawable/ic_scale_balance"
+                android:title="Shame Scale"/>
+
+            <item
+                android:id="@+id/item_limits"
+                android:checkable="true"
+                android:icon="@drawable/ic_glass_mug"
+                android:title="Drinking Limits"/>
+
+            <item
+                android:id="@+id/item_worksheets"
+                android:checkable="true"
+                android:icon="@drawable/ic_note_text"
+                android:title="Worksheets"/>
+
+            <item
+                android:id="@+id/ebooks"
+                android:checkable="true"
+                android:icon="@drawable/ic_book"
+                android:title="Recovery eBooks"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_item_2"
+        android:title="Admissions">
+        <menu>
+            <item
+                android:id="@+id/prescreen"
+                android:checkable="true"
+                android:icon="@drawable/ic_stethoscope"
+                android:title="Pre-Screen"/>
+
+            <item
+                android:id="@+id/item_intake"
+                android:checkable="true"
+                android:icon="@drawable/ic_content_paste"
+                android:title="Intake Packet"/>
+
+            <item
+                android:id="@+id/item_handbook"
+                android:checkable="true"
+                android:icon="@drawable/ic_book_open"
+                android:title="Treatment Handbook"/>
+        </menu>
+    </item>
+</menu>

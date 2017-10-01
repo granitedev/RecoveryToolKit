@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9d9601eb200d3b3c3398e627baf34a35c87e1c6">
+        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_510c7a590a53f1073a814de5633db2eaefbe0208/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1b9a502a0eefeeafa51a0efe5457bf166402f604/classes.dex" />
+    </item>
+
+</items>

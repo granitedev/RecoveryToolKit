@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:4:5-72
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:4:22-69
+application
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:6:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/a1d3n/.android/build-cache/96f658cee2c2c5b469e57abd97c11d89adc31966/output/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/a1d3n/.android/build-cache/2673431d70026ec7fc9d0146c0c2ab72ada3cd09/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d175bf6c3cf0024a3dd45f4338c9033110a6578a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/a1d3n/.android/build-cache/efc9e245268c27e8bc98cb51e9511ea58d7b9c7d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/a1d3n/.android/build-cache/1ddbcec8ea1140a23a9d951d03897a5eec449054/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/a1d3n/.android/build-cache/efa61bb35aead440c9b28a510b36436bc3f8efa0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d20fca7f200c4939cbc8f263301d6bb3604facab/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/a1d3n/.android/build-cache/caf3ae06398337bc56f798aca6f4f6dce4731149/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e633a77785389d2a0eb398156666060f315e5270/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/a1d3n/.android/build-cache/38494b72dd57383ae459af59e554850fc35b5c3c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/a1d3n/.android/build-cache/dcd5e954d1a203b53b0b75dd0b91c843b02d10c1/output/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/a1d3n/.android/build-cache/5624495cee57a949062b52a3918f86e5c693c5d4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e599ead18c8d02d6ad3453d00f85fd308531b5a1/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:13:9-35
+	android:elevation
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:15:9-32
+	android:fullBackupContent
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:12:9-56
+	android:allowBackup
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:10:9-51
+	android:theme
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:14:9-47
+activity#com.granitemountainbhc.recoverytoolkit.MainActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:16:9-23:20
+	android:theme
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:17:13-47
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.granitemountainbhc.recoverytoolkit.DetailActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:24:9-30:20
+	android:parentActivityName
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:26:13-55
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:25:13-43
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:27:13-29:49
+	android:value
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:29:17-46
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:28:17-63
+uses-sdk
+INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/a1d3n/.android/build-cache/96f658cee2c2c5b469e57abd97c11d89adc31966/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/a1d3n/.android/build-cache/2e1b32616ce4ea5bcb38f7c299734725dd7b38fe/output/AndroidManifest.xml:5:5-43
+MERGED from [com.thoughtbot:expandablecheckrecyclerview:1.4] /home/a1d3n/.android/build-cache/f0699cad60b104d2e77e10059f4ba88f333834fc/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.thoughtbot:expandablerecyclerview:1.3] /home/a1d3n/.android/build-cache/098105d4a79fe991dd808f9ad5480885242c70da/output/AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/a1d3n/.android/build-cache/2673431d70026ec7fc9d0146c0c2ab72ada3cd09/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d175bf6c3cf0024a3dd45f4338c9033110a6578a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/a1d3n/.android/build-cache/efc9e245268c27e8bc98cb51e9511ea58d7b9c7d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/a1d3n/.android/build-cache/1ddbcec8ea1140a23a9d951d03897a5eec449054/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/a1d3n/.android/build-cache/efa61bb35aead440c9b28a510b36436bc3f8efa0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d20fca7f200c4939cbc8f263301d6bb3604facab/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/a1d3n/.android/build-cache/caf3ae06398337bc56f798aca6f4f6dce4731149/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e633a77785389d2a0eb398156666060f315e5270/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/a1d3n/.android/build-cache/38494b72dd57383ae459af59e554850fc35b5c3c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/a1d3n/.android/build-cache/dcd5e954d1a203b53b0b75dd0b91c843b02d10c1/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/b86874b638686f9d3ab4d5377610bc4a82459e9f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/a1d3n/.android/build-cache/5624495cee57a949062b52a3918f86e5c693c5d4/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e599ead18c8d02d6ad3453d00f85fd308531b5a1/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d175bf6c3cf0024a3dd45f4338c9033110a6578a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/a1d3n/.android/build-cache/efc9e245268c27e8bc98cb51e9511ea58d7b9c7d/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/a1d3n/.android/build-cache/1ddbcec8ea1140a23a9d951d03897a5eec449054/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/a1d3n/.android/build-cache/efa61bb35aead440c9b28a510b36436bc3f8efa0/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d20fca7f200c4939cbc8f263301d6bb3604facab/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/a1d3n/.android/build-cache/caf3ae06398337bc56f798aca6f4f6dce4731149/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e633a77785389d2a0eb398156666060f315e5270/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/a1d3n/.android/build-cache/38494b72dd57383ae459af59e554850fc35b5c3c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/b86874b638686f9d3ab4d5377610bc4a82459e9f/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/a1d3n/.android/build-cache/5624495cee57a949062b52a3918f86e5c693c5d4/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/a1d3n/.android/build-cache/e599ead18c8d02d6ad3453d00f85fd308531b5a1/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d175bf6c3cf0024a3dd45f4338c9033110a6578a/output/AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/a1d3n/.android/build-cache/d175bf6c3cf0024a3dd45f4338c9033110a6578a/output/AndroidManifest.xml:23:9-47
