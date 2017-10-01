@@ -55,7 +55,7 @@ ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManife
 	android:theme
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:17:13-47
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:16:19-47
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:16:19-46
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
