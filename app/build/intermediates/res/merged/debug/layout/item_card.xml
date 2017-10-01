@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/card_image_height"
             android:scaleType="centerCrop"
-            tools:src="@drawable/a" />
+            tools:src="@drawable/depression" />
 
         <TextView
             android:id="@+id/card_title"
@@ -69,7 +69,7 @@
             android:layout_below="@+id/card_text"
             style="?android:attr/borderlessButtonStyle"
             android:textColor="?attr/colorPrimary"
-            android:text="Action" />
+            android:text="Worksheets" />
 
         <ImageButton
             android:id="@+id/share_button"
