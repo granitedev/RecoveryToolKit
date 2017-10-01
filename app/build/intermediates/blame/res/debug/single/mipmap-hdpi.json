@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_granite.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/ic_launcher_granite.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/splash.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/splash.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_splash.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/ic_splash.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_menu.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/ic_menu.png"
+    }
+]

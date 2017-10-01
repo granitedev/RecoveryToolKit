@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_android_black.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/drawable-hdpi/ic_android_black.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_arrow_down.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/drawable-hdpi/ic_arrow_down.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_menu.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/drawable-hdpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_chat.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/drawable-hdpi/ic_action_chat.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_card_gift.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/drawable-hdpi/ic_card_gift.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_hex.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/drawable-hdpi/ic_hex.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_face.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/drawable-hdpi/ic_face.png"
+    }
+]
