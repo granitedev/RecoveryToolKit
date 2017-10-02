@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506900906320"
+    timestamp="1506909852845"
     token="-1180131998104628973"
     verifier="COMPATIBLE" >
 
@@ -73,22 +73,25 @@
         timestamp="1506900413848"
         verifier="R_CLASS_CHANGE" >
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1506909821997"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506900739610"
-        verifier="R_CLASS_CHANGE" >
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
@@ -98,7 +101,7 @@
     </build>
     <build
         build-mode="HOT_WARM"
-        timestamp="1506900906320"
+        timestamp="1506909852845"
         verifier="COMPATIBLE" >
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"

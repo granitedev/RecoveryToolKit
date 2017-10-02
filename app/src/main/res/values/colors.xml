@@ -12,6 +12,7 @@
     <color name="cardTitle">#FFFFFF</color>
     <color name="colorIcons">#212121</color>
     <color name="colorDivider">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
 </resources>
 
 
