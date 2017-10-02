@@ -8,6 +8,10 @@
         "source": "/home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/res/layout/design_navigation_menu.xml"
     },
     {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_ebooks.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_ebooks.xml"
+    },
+    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_action_bar_title_item.xml"
     },
@@ -24,16 +28,16 @@
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/image_fragment.xml",
-        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/image_fragment.xml"
-    },
-    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_pre_screen.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_pre_screen.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
@@ -68,16 +72,32 @@
         "source": "/home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/res/layout/design_menu_item_action_area.xml"
     },
     {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_drinking_limits.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_drinking_limits.xml"
+    },
+    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_profile.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_worksheets.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_worksheets.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_intake.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_intake.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -106,6 +126,10 @@
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_shame.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_shame.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -152,12 +176,20 @@
         "source": "/home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/res/layout/design_navigation_menu_item.xml"
     },
     {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_compassion.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_compassion.xml"
+    },
+    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_chat.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_chat.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -192,12 +224,24 @@
         "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/recycler_view.xml"
     },
     {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_settings.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_settings.xml"
+    },
+    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_screen_content_include.xml"
     },
     {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_withdrawals.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_withdrawals.xml"
+    },
+    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/fragment_handbook.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/layout/fragment_handbook.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
