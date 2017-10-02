@@ -95,7 +95,7 @@ public class CardContentFragment extends Fragment {
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
         // Set numbers of Card in RecyclerView.
-        private static final int LENGTH = 18;
+        private static final int LENGTH = 6;
 
         private final String[] mPlaces;
         private final String[] mPlaceDesc;

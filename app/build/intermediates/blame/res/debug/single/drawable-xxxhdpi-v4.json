@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png",
-        "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png",

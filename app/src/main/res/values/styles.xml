@@ -13,8 +13,12 @@
 
     </style>
 
-        <style name="SplashTheme" parent="MyMaterialTheme">
-            <item name="android:windowBackground">@drawable/launch_screen</item>
-        </style>
+    <style name="SplashTheme" parent="MyMaterialTheme">
+        <item name="android:windowBackground">@mipmap/splash</item>
+    </style>
+
+    <style name="MyMaterialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyMaterialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

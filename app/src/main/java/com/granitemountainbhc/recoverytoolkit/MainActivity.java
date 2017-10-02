@@ -21,6 +21,9 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 
+import com.granitemountainbhc.recoverytoolkit.navFragments.Compassion;
+import com.granitemountainbhc.recoverytoolkit.navFragments.Shame;
+import com.granitemountainbhc.recoverytoolkit.navFragments.Withdrawals;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.MyMaterialTheme);
@@ -45,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
 
+        // Find our drawer view
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+
         // Setting ViewPager for each Tabs
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
@@ -52,7 +59,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setupToolbarMenu();
         setupNavigationDrawerMenu();
 
-        }
+    }
+
+
+
 
     private void setupToolbarMenu() {
 
@@ -77,8 +87,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override // Called when Any Navigation Item is Clicked
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
-//		menuItem.setCheckable(true);
-//		menuItem.setChecked(true);  // This helps to know which Menu Item is Clicked
+		menuItem.setCheckable(true);
+		menuItem.setChecked(true);  // This helps to know which Menu Item is Clicked
 
         String itemName = (String) menuItem.getTitle();
 

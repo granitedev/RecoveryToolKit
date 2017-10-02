@@ -20,6 +20,10 @@
         "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/ic_splash.png"
     },
     {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/splash_final.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/splash_final.png"
+    },
+    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_menu.png",
         "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/mipmap-hdpi/ic_menu.png"
     }
