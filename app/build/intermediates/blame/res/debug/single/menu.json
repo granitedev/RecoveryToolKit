@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/menu/menu_main.xml"
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/res/menu/main.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/menu/menu_items_with_headers.xml",

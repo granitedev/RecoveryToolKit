@@ -13,6 +13,13 @@
     <color name="colorIcons">#212121</color>
     <color name="colorDivider">#BDBDBD</color>
     <color name="white">#FFFFFF</color>
+
+    <!-- Black and White -->
+
+    <color name="black_alpha_40">#66000000</color>
+    <color name="black_alpha_60">#99000000</color>
+
+    <color name="black_87">#DE000000</color>
 </resources>
 
 

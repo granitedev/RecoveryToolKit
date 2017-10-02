@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506909852845"
+    timestamp="1506921794219"
     token="-1180131998104628973"
     verifier="COMPATIBLE" >
 
@@ -29,28 +29,25 @@
 
     <build
         build-mode="FULL"
-        timestamp="1506897408075"
+        timestamp="1506913618217"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -59,10 +56,13 @@
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/outputs/apk/app-debug.apk"
@@ -70,24 +70,13 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1506900413848"
+        timestamp="1506921345241"
         verifier="R_CLASS_CHANGE" >
         <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506909821997"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -101,7 +90,7 @@
     </build>
     <build
         build-mode="HOT_WARM"
-        timestamp="1506909852845"
+        timestamp="1506921794219"
         verifier="COMPATIBLE" >
         <artifact
             location="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"

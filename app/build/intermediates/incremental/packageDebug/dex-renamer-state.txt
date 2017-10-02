@@ -1,4 +1,4 @@
-#Sun Oct 01 19:03:44 MST 2017
+#Sun Oct 01 22:15:46 MST 2017
 base.0=/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_510c7a590a53f1073a814de5633db2eaefbe0208
 renamed.1=classes.dex
 renamed.0=classes2.dex
