@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/sweating"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/sweatingGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sweatingRadio1"
+                android:tag="@string/sweatingValue1"
+                android:text="@string/sweating1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sweatingRadio2"
+                android:tag="@string/sweatingValue2"
+                android:text="@string/sweating2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sweatingRadio3"
+                android:tag="@string/sweatingValue3"
+                android:text="@string/sweating3" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sweatingRadio4"
+                android:tag="@string/sweatingValue4"
+                android:text="@string/sweating4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sweatingRadio5"
+                android:tag="@string/sweatingValue5"
+                android:text="@string/sweating5" />
+        </RadioGroup>
+
+    </FrameLayout>
+
+</LinearLayout>

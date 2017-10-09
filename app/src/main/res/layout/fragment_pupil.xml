@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/pupil"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:id="@+id/pupilGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/pupilRadio1"
+                android:tag="@string/pupilValue1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/pupil1" />
+
+            <RadioButton
+                android:id="@+id/pupilRadio2"
+                android:tag="@string/pupilValue2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/pupil2" />
+
+            <RadioButton
+                android:id="@+id/pupilRadio3"
+                android:tag="@string/pupilValue3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/pupil3" />
+
+            <RadioButton
+                android:id="@+id/pupilRadio4"
+                android:tag="@string/pupilValue4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/pupil4" />
+        </RadioGroup>
+
+    </FrameLayout>
+
+</LinearLayout>

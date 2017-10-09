@@ -1,10 +1,110 @@
 [
     {
-        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_manage.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_note_text.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_note_text.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_share.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_sync_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_sync_black_24dp.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_favorite.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_favorite.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_slideshow.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_lock_outline_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_lock_outline_black_24dp.xml"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/home/a1d3n/.android/build-cache/e7c8123b392fd9127c62cf2d157d5f75d6ba612e/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "source": "/home/a1d3n/.android/build-cache/bca2d2aaad6baeeb9654d2371c46f2f87758e0c4/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_book_open.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_book_open.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_content_paste.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_content_paste.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_share.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_share.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_stethoscope.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_stethoscope.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_account_circle_white_64dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_account_circle_white_64dp.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_scale_balance.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_scale_balance.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_gallery.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/a1d3n/.android/build-cache/bca2d2aaad6baeeb9654d2371c46f2f87758e0c4/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_camera.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_glass_mug.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_glass_mug.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_home.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_book.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_book.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_send.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_send.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_arrow_forward_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_arrow_forward_black_24dp.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_settings_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_info_outline_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_info_outline_black_24dp.xml"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_info_black_24dp.xml",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_info_black_24dp.xml"
     }
 ]

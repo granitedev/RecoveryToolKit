@@ -11,13 +11,34 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "/home/a1d3n/.android/build-cache/ce793feecb9ad743cccd7e9d14d386903c9a05de/output/res/values-v16/values-v16.xml",
+                    "file": "/home/a1d3n/.android/build-cache/cf4f55aa1d1e9600b713a915e1160c537c4059ff/output/res/values-v16/values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
                         "endColumn": 65,
                         "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "/home/a1d3n/.android/build-cache/61105fd5db3fa96ed4b2f8d1a62a8366fe7c81db/output/res/values-v16/values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 223
                     }
                 }
             }

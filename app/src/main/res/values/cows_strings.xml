@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Questions-->
+
+    <string name="pulse">What is your current resting pulse rate?</string>
+    <string name="sweating">In the past 30 minutes how severe were you sweating? </string>
+    <string name="restlessness">What is your perceived restlessness?</string>
+    <string name="pupil">What is your pupil size?</string>
+    <string name="bone">Are you experiencing bone or joints aches?</string>
+    <string name="runny">Are you experiencing runny nose or tearing not accounting symptoms from a cold or allergies?</string>
+    <string name="gi">Have you experienced GI upset within the past 30 minutes?</string>
+    <string name="tremor">How severe are your tremors (shakiness) when observing your outstretched hands?</string>
+    <string name="yawning">Are you yawning at all?</string>
+    <string name="anxiety">To what degree are you anxious or irritable?</string>
+    <string name="gooseflesh">Do you have a visible occurrence of Goosebumps?</string>
+
+    <!--Pulse responses-->
+    <string name="pulse1">Pulse rate 80 or below</string>
+    <string name="pulse2">Pulse rate 81-100</string>
+    <string name="pulse3">Pulse rate 101-120</string>
+    <string name="pulse4">Pulse rate greater than 120</string>
+
+    <!--Pulse Values-->
+    <string name="pulseValue1">0</string>
+    <string name="pulseValue2">1</string>
+    <string name="pulseValue3">2</string>
+    <string name="pulseValue4">4</string>
+
+    <!--Sweating responses-->
+    <string name="sweating1">No chills or flushing</string>
+    <string name="sweating2">Mild chills or flushing</string>
+    <string name="sweating3">Observable moistness on face</string>
+    <string name="sweating4">Beads of sweat on brow or face</string>
+    <string name="sweating5">Sweat streaming off face</string>
+
+    <!--Sweating Values-->
+    <string name="sweatingValue1">0</string>
+    <string name="sweatingValue2">1</string>
+    <string name="sweatingValue3">2</string>
+    <string name="sweatingValue4">3</string>
+    <string name="sweatingValue5">4</string>
+
+    <!--Restlessness responses-->
+    <string name="restlessness1">Able to sit still</string>
+    <string name="restlessness2">Difficulty sitting still, but is able to do so</string>
+    <string name="restlessness3">Frequent shifting or extraneous movements of legs/arms</string>
+    <string name="restlessness4">Unable to sit still for more than a few seconds</string>
+
+    <!--Restlessness Values-->
+    <string name="restlessnessValue1">0</string>
+    <string name="restlessnessValue2">1</string>
+    <string name="restlessnessValue3">3</string>
+    <string name="restlessnessValue4">5</string>
+
+    <!--Pupil responses-->
+    <string name="pupil1">Pinned or normal size for room light</string>
+    <string name="pupil2">Possibly larger than normal for room light</string>
+    <string name="pupil3">Moderately dilated</string>
+    <string name="pupil4">Pupils so dilated that only the rim of the iris is visible</string>
+
+    <!--Pupil Values-->
+    <string name="pupilValue1">0</string>
+    <string name="pupilValue2">1</string>
+    <string name="pupilValue3">2</string>
+    <string name="pupilValue4">5</string>
+
+    <!--Bone Joint responses-->
+    <string name="bone1">Not present</string>
+    <string name="bone2">Mild diffuse discomfort</string>
+    <string name="bone3">Severe diffuse aching of joints/muscles</string>
+    <string name="bone4">Rubbing joints or muscles and is unable to sit still because of discomfort</string>
+
+    <!--Bone Joint Values-->
+    <string name="boneValue1">0</string>
+    <string name="boneValue2">1</string>
+    <string name="boneValue3">2</string>
+    <string name="boneValue4">4</string>
+
+    <!--Runny Nose responses-->
+    <string name="runny1">Not present</string>
+    <string name="runny2">Nasal stuffiness or unusually moist eyes</string>
+    <string name="runny3">Nose running or tearing</string>
+    <string name="runny4">Nose constantly running or tears streaming down cheeks</string>
+
+    <!--Runny Values-->
+    <string name="runnyValue1">0</string>
+    <string name="runnyValue2">1</string>
+    <string name="runnyValue3">2</string>
+    <string name="runnyValue4">4</string>
+
+    <!--GI responses-->
+    <string name="gi1">No GI symptoms</string>
+    <string name="gi2">Stomach cramps</string>
+    <string name="gi3">Nausea or loose stool</string>
+    <string name="gi4">Vomiting or diarrhea</string>
+    <string name="gi5">Multiple episodes of diarrhea or vomiting</string>
+
+    <!--Gi Values-->
+    <string name="giValue1">0</string>
+    <string name="giValue2">1</string>
+    <string name="giValue3">2</string>
+    <string name="giValue4">3</string>
+    <string name="giValue5">5</string>
+
+    <!--Tremor responses-->
+    <string name="tremor1">No tremor</string>
+    <string name="tremor2">Tremor can be felt, but not observed</string>
+    <string name="tremor3">Slight tremor observable</string>
+    <string name="tremor4">Gross tremor or muscle twitching</string>
+
+    <!--Tremor Values-->
+    <string name="tremorValue1">0</string>
+    <string name="tremorValue2">1</string>
+    <string name="tremorValue3">2</string>
+    <string name="tremorValue4">4</string>
+
+    <!--Yawning responses-->
+    <string name="yawning1">No yawning</string>
+    <string name="yawning2">Yawning once or twice during assessment</string>
+    <string name="yawning3">Yawning three or more times during assessment</string>
+    <string name="yawning4">Yawning several times/minute</string>
+
+    <!--Yawning Values-->
+    <string name="yawningValue1">0</string>
+    <string name="yawningValue2">1</string>
+    <string name="yawningValue3">2</string>
+    <string name="yawningValue4">4</string>
+
+    <!--Anxiety responses-->
+    <string name="anxiety1">None</string>
+    <string name="anxiety2">Increasing irritability or anxiousness</string>
+    <string name="anxiety3">Obviously irritable/anxious</string>
+    <string name="anxiety4">So irritable or anxious that participation
+    this assessment is difficult</string>
+
+    <!--Anxiety Values-->
+    <string name="anxietyValue1">0</string>
+    <string name="anxietyValue2">1</string>
+    <string name="anxietyValue3">2</string>
+    <string name="anxietyValue4">4</string>
+
+    <!--Gooseflesh responses-->
+    <string name="gooseflesh1">Skin is smooth</string>
+    <string name="gooseflesh2">Piloerection of skin can be felt or hairs standing up on arms</string>
+    <string name="gooseflesh3">Prominent piloerection</string>
+
+    <!--Gooseflesh Values-->
+    <string name="goosefleshValue1">0</string>
+    <string name="goosefleshValue2">3</string>
+    <string name="goosefleshValue3">5</string>
+
+
+
+
+
+    <!--Group Arrays-->
+    <!--Cows-->
+
+    <string-array name="pulseGroup">
+        <item>Cows Radio Button Group</item>
+    </string-array>
+    <string-array name="pulseRadio1">
+        <item>Cows Radio Button 1</item>
+    </string-array>
+    <string-array name="pulseRadio2">
+        <item>Cows Radio Button 2</item>
+    </string-array>
+    <string-array name="pulseRadio3">
+        <item>Cows Radio Button 3</item>
+    </string-array>
+    <string-array name="pulseRadio4">
+        <item>Cows Radio Button 4</item>
+    </string-array>
+
+    <!--Sweating-->
+
+    <string-array name="sweatingGroup">
+        <item>Sweating Radio Button Group</item>
+    </string-array>
+    <string-array name="sweatingRadio1">
+        <item>Sweating Radio Button 1</item>
+    </string-array>
+    <string-array name="sweatingRadio2">
+        <item>Sweating Radio Button 2</item>
+    </string-array>
+    <string-array name="sweatingRadio3">
+        <item>Sweating Radio Button 3</item>
+    </string-array>
+    <string-array name="sweatingRadio4">
+        <item>Sweating Radio Button 4</item>
+    </string-array>
+    <string-array name="sweatingRadio5">
+        <item>Sweating Radio Button 5</item>
+    </string-array>
+
+    <!--Restlessness-->
+
+    <string-array name="restlessnessGroup">
+        <item>Restlessness Radio Button Group</item>
+    </string-array>
+    <string-array name="restlessnessRadio1">
+        <item>Restlessness Radio Button 1</item>
+    </string-array>
+    <string-array name="restlessnessRadio2">
+        <item>Restlessness Radio Button 2</item>
+    </string-array>
+    <string-array name="restlessnessRadio3">
+        <item>Restlessness Radio Button 3</item>
+    </string-array>
+    <string-array name="restlessnessRadio4">
+        <item>Restlessness Radio Button 4</item>
+    </string-array>
+
+    <!--Pupil-->
+
+    <string-array name="pupilGroup">
+        <item>Pupil Radio Button Group</item>
+    </string-array>
+    <string-array name="pupilRadio1">
+        <item>Pupil Radio Button 1</item>
+    </string-array>
+    <string-array name="pupilRadio2">
+        <item>Pupil Radio Button 2</item>
+    </string-array>
+    <string-array name="pupilRadio3">
+        <item>Pupil Radio Button 3</item>
+    </string-array>
+    <string-array name="pupilRadio4">
+        <item>Pupil Radio Button 4</item>
+    </string-array>
+
+    <!--Bone Joint-->
+
+    <string-array name="boneGroup">
+        <item>Bone Joint Radio Button Group</item>
+    </string-array>
+    <string-array name="boneRadio1">
+        <item>Bone Joint Radio Button 1</item>
+    </string-array>
+    <string-array name="boneRadio2">
+        <item>Bone Joint Radio Button 2</item>
+    </string-array>
+    <string-array name="boneRadio3">
+        <item>Bone Joint Radio Button 3</item>
+    </string-array>
+    <string-array name="boneRadio4">
+        <item>Bone Joint Radio Button 4</item>
+    </string-array>
+
+    <!--Runny Nose-->
+
+    <string-array name="runnyGroup">
+        <item>Runny Nose Radio Button Group</item>
+    </string-array>
+    <string-array name="runnyRadio1">
+        <item>Runny Nose Radio Button 1</item>
+    </string-array>
+    <string-array name="runnyRadio2">
+        <item>Runny Nose Radio Button 2</item>
+    </string-array>
+    <string-array name="runnyRadio3">
+        <item>Runny Nose Radio Button 3</item>
+    </string-array>
+    <string-array name="runnyRadio4">
+        <item>Runny Nose Radio Button 4</item>
+    </string-array>
+
+    <!--GI Upset-->
+
+    <string-array name="giGroup">
+        <item>GI Radio Button Group</item>
+    </string-array>
+    <string-array name="giRadio1">
+        <item>GI Radio Button 1</item>
+    </string-array>
+    <string-array name="giRadio2">
+        <item>GI Radio Button 2</item>
+    </string-array>
+    <string-array name="giRadio3">
+        <item>GI Radio Button 3</item>
+    </string-array>
+    <string-array name="giRadio4">
+        <item>GI Radio Button 4</item>
+    </string-array>
+    <string-array name="giRadio5">
+        <item>GI Radio Button 5</item>
+    </string-array>
+
+    <!--Tremor-->
+
+    <string-array name="tremorGroup">
+        <item>Tremor Radio Button Group</item>
+    </string-array>
+    <string-array name="tremorRadio1">
+        <item>Tremor Radio Button 1</item>
+    </string-array>
+    <string-array name="tremorRadio2">
+        <item>Tremor Radio Button 2</item>
+    </string-array>
+    <string-array name="tremorRadio3">
+        <item>Tremor Radio Button 3</item>
+    </string-array>
+    <string-array name="tremorRadio4">
+        <item>Tremor Radio Button 4</item>
+    </string-array>
+
+    <!--Yawning-->
+
+    <string-array name="yawningGroup">
+        <item>Yawning Radio Button Group</item>
+    </string-array>
+    <string-array name="yawningRadio1">
+        <item>Yawning Radio Button 1</item>
+    </string-array>
+    <string-array name="yawningRadio2">
+        <item>Yawning Radio Button 2</item>
+    </string-array>
+    <string-array name="yawningRadio3">
+        <item>Yawning Radio Button 3</item>
+    </string-array>
+    <string-array name="yawningRadio4">
+        <item>Yawning Radio Button 4</item>
+    </string-array>
+
+    <!--Anxiety-->
+
+    <string-array name="anxietyGroup">
+        <item>Anxiety Radio Button Group</item>
+    </string-array>
+    <string-array name="anxietyRadio1">
+        <item>Anxiety Radio Button 1</item>
+    </string-array>
+    <string-array name="anxietyRadio2">
+        <item>Anxiety Radio Button 2</item>
+    </string-array>
+    <string-array name="anxietyRadio3">
+        <item>Anxiety Radio Button 3</item>
+    </string-array>
+    <string-array name="anxietyRadio4">
+        <item>Anxiety Radio Button 4</item>
+    </string-array>
+
+    <!--Gooseflesh-->
+
+    <string-array name="goosefleshGroup">
+        <item>Gooseflesh Radio Button Group</item>
+    </string-array>
+    <string-array name="goosefleshRadio1">
+        <item>Gooseflesh Radio Button 1</item>
+    </string-array>
+    <string-array name="goosefleshRadio2">
+        <item>Gooseflesh Radio Button 2</item>
+    </string-array>
+    <string-array name="goosefleshRadio3">
+        <item>Gooseflesh Radio Button 3</item>
+    </string-array>
+
+    <!--Summary-->
+    <string name="cows_score">Cows Score</string>
+
+</resources>

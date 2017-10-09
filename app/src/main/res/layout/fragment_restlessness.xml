@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/restlessness"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/restlessnessGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/restlessnessRadio1"
+                android:tag="@string/restlessnessValue1"
+                android:text="@string/restlessness1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/restlessnessRadio2"
+                android:tag="@string/restlessnessValue2"
+                android:text="@string/restlessness2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/restlessnessRadio3"
+                android:tag="@string/restlessnessValue3"
+                android:text="@string/restlessness3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/restlessnessRadio4"
+                android:tag="@string/restlessnessValue4"
+                android:text="@string/restlessness4" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
