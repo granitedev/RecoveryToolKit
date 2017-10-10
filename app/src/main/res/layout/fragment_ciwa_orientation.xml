@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fillViewport="true">
 
     <FrameLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:padding="16dp">
@@ -17,42 +15,52 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50dp"
-            android:text="@string/bone"
+            android:text="@string/ciwa_orientation"
             android:textColor="@color/colorPrimaryText" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:id="@+id/boneGroup">
+            android:id="@+id/ciwaOrientaionGroup">
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/boneRadio1"
-                android:text="@string/bone1" />
+                android:id="@+id/ciwa_orientationRadio1"
+                android:tag="@string/ciwa_orientationValue1"
+                android:text="@string/ciwa_orientation1" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/boneRadio2"
-                android:text="@string/bone2" />
+                android:id="@+id/ciwa_orientationRadio2"
+                android:tag="@string/ciwa_orientationValue2"
+                android:text="@string/ciwa_orientation2" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/boneRadio3"
-                android:text="@string/bone3" />
+                android:id="@+id/ciwa_orientationRadio3"
+                android:tag="@string/ciwa_orientationValue3"
+                android:text="@string/ciwa_orientation3" />
+
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/boneRadio4"
-                android:text="@string/bone4" />
+                android:id="@+id/ciwa_orientationRadio4"
+                android:tag="@string/ciwa_orientationValue4"
+                android:text="@string/ciwa_orientation4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_orientationRadio5"
+                android:tag="@string/ciwa_orientationValue5"
+                android:text="@string/ciwa_orientation5" />
+
         </RadioGroup>
+
 
     </FrameLayout>
 
-
-
 </LinearLayout>
-

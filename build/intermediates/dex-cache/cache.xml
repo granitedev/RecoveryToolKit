@@ -3,120 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/0adf36da9c3d2eb731be674ab2dac2f7eb2e3690/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="c2cadea4d8a1a5b5c4e5f0dc99a99a43774f5e6e">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f510a4d7a5fa7e3366ca9bc37cda8beea95eed5c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/070819d7a3bb7bab76ae0616a26b322391ec1ccf/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="643a2fd3bd06c44be5d20efc0ba4ca02036d2c8a">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_748498c2e3025530f2706c51723cf4163ec4bfa0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/910c0a0985ade41f3ab426c92edcae402ef711b6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="20d6aa9a18ea9833cd2bee95dff7cd303cdb80e4">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8fb281e5dfa72c6285cde79363c1c8a7ce8916d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/36d4eef9cda4722ae622bec41533ac405c9ab52d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5f06fd0b0ed3e2370f0f3373152f7ce14266f9b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.3/eb3399988a52099b0127e27fb5bed666eca86ace/baseLibrary-2.3.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="eb3399988a52099b0127e27fb5bed666eca86ace">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.3.3_8b5cea1685677929fa42a432c256d5a240371633/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/4f526b905eb297e2caadb68d2ae029c360ae1fc3/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_09be4f2b86467d644364549fde35ea9cfb1d4261/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.0"
+        revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1b9a502a0eefeeafa51a0efe5457bf166402f604/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/39c1243f91073bf237d9d0a09c79df26acd51aa0/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="bed98ea7af8c5c4202820875e856dd3eb296e22d">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4fd7225f91fd0731e9fae90e9dbb1b41af74d5b1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/0068188204dff2b8ad3d294a54d6768eaef4dbba/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a27b6c13c62f9b58546d046ceef5601c4ab77576/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="26.0.0"
-        sha1="ea048dc5bce8dd4912c0a94bc43ae0a593167d45">
+        revision="26.0.2"
+        sha1="406eeb554cca63c9407182e5c35e6a5c0af34684">
         <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_510c7a590a53f1073a814de5633db2eaefbe0208/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/95a34b02775eb96bf2b519d5f71fbd9d41f45158/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_893d9625535c1476927e4e6a5321fcbb302131ba/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/df4ea54c890d57cb7e969b29ca38abf807c71057/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7f617c6b4f15822fc56602c57b13a3886276fba2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/a1d3n/.android/build-cache/84196ca29f7651e7b40cc447d1e4d664cdb03cba/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="6e6b94b72d7912a627fb1629c310b2bca9261f06">
-        <dex dex="/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ddd35ca49a6c77f29fdafecc044d087375743cd2/classes.dex" />
     </item>
 
 </items>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/ciwa_nausea"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ciwaNauseaGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio1"
+                android:tag="@string/ciwa_nauseaValue1"
+                android:text="@string/ciwa_nausea1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio2"
+                android:tag="@string/ciwa_nauseaValue2"
+                android:text="@string/ciwa_nausea2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio3"
+                android:tag="@string/ciwa_nauseaValue3"
+                android:text="@string/ciwa_nausea3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio4"
+                android:tag="@string/ciwa_nauseaValue4"
+                android:text="@string/ciwa_nausea4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio5"
+                android:tag="@string/ciwa_nauseaValue5"
+                android:text="@string/ciwa_nausea5" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio6"
+                android:tag="@string/ciwa_nauseaValue6"
+                android:text="@string/ciwa_nausea6" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio7"
+                android:tag="@string/ciwa_nauseaValue7"
+                android:text="@string/ciwa_nausea7" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_nauseaRadio8"
+                android:tag="@string/ciwa_nauseaValue8"
+                android:text="@string/ciwa_nausea8" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+</LinearLayout>

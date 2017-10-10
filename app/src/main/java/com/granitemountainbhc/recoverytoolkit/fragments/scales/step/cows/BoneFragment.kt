@@ -26,7 +26,7 @@ class BoneFragment : Fragment(), BlockingStep {
 
         //initialize your UI
 
-        return inflater!!.inflate(R.layout.fragment_bone, container, false)
+        return inflater!!.inflate(R.layout.fragment_cows_bone, container, false)
     }
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

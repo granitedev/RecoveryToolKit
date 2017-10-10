@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/ciwa_headaches"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ciwaHeadachesGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio1"
+                android:tag="@string/ciwa_headachesValue1"
+                android:text="@string/ciwa_headaches1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio2"
+                android:tag="@string/ciwa_headachesValue2"
+                android:text="@string/ciwa_headaches2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio3"
+                android:tag="@string/ciwa_headachesValue3"
+                android:text="@string/ciwa_headaches3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio4"
+                android:tag="@string/ciwa_headachesValue4"
+                android:text="@string/ciwa_headaches4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio5"
+                android:tag="@string/ciwa_headachesValue5"
+                android:text="@string/ciwa_headaches5" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio6"
+                android:tag="@string/ciwa_headachesValue6"
+                android:text="@string/ciwa_headaches6" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio7"
+                android:tag="@string/ciwa_headachesValue7"
+                android:text="@string/ciwa_headaches7" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_headachesRadio8"
+                android:tag="@string/ciwa_headachesValue8"
+                android:text="@string/ciwa_headaches8" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+</LinearLayout>

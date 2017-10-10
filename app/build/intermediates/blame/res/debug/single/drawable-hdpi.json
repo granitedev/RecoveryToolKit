@@ -92,12 +92,12 @@
         "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-hdpi/ic_menu_gallery.png"
     },
     {
-        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_account_circle_white_64dp.png",
-        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-hdpi/ic_account_circle_white_64dp.png"
-    },
-    {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_stethoscope.png",
         "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-hdpi/ic_stethoscope.png"
+    },
+    {
+        "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_account_circle_white_64dp.png",
+        "source": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/generated/res/pngs/debug/drawable-hdpi/ic_account_circle_white_64dp.png"
     },
     {
         "merged": "/home/a1d3n/StudioProjects/RecoveryToolKit/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_notifications_black_24dp.png",

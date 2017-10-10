@@ -1,22 +1,21 @@
-package com.granitemountainbhc.recoverytoolkit.activity
+package com.granitemountainbhc.recoverytoolkit.activity.step
 
 import android.os.Bundle
-
 import android.support.v7.app.AppCompatActivity
-
 import android.view.View
 import android.widget.Toast
 import com.granitemountainbhc.recoverytoolkit.R
-import com.granitemountainbhc.recoverytoolkit.adapter.step.StepperAdapter
+import com.granitemountainbhc.recoverytoolkit.adapter.step.CiwaStepperAdapter
+import com.granitemountainbhc.recoverytoolkit.adapter.step.CowsStepperAdapter
 import com.stepstone.stepper.StepperLayout
 import com.stepstone.stepper.VerificationError
 
 
-class WithdrawalsActivity : AppCompatActivity(), StepperLayout.StepperListener {
+class CiwaWithdrawalsActivity : AppCompatActivity(), StepperLayout.StepperListener {
 
 
     private var mStepperLayout: StepperLayout? = null
-    private var mStepperAdapter: StepperAdapter? = null
+    private var mCiwaStepperAdapter: CiwaStepperAdapter? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,13 +23,14 @@ class WithdrawalsActivity : AppCompatActivity(), StepperLayout.StepperListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.stepper_layout)
         mStepperLayout = findViewById<View>(R.id.stepperLayout) as StepperLayout
-        mStepperAdapter = StepperAdapter(supportFragmentManager, this)
-        mStepperLayout!!.adapter = mStepperAdapter!!
+        mCiwaStepperAdapter = CiwaStepperAdapter(supportFragmentManager, this)
+        mStepperLayout!!.adapter = mCiwaStepperAdapter!!
         mStepperLayout!!.setListener(this)
     }
 
     override fun onCompleted(completeButton: View) {
         Toast.makeText(this, "Hope this helped!", Toast.LENGTH_SHORT).show()
+        finish()
     }
 
     override fun onError(verificationError: VerificationError) {

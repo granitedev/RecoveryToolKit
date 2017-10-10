@@ -26,7 +26,7 @@ class AnxietyFragment : Fragment(), BlockingStep {
 
         //initialize your UI
 
-        return inflater!!.inflate(R.layout.fragment_anxiety, container, false)
+        return inflater!!.inflate(R.layout.fragment_cows_anxiety, container, false)
     }
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

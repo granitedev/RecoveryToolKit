@@ -29,7 +29,7 @@ class PulseFragment : Fragment(), BlockingStep {
 
         //initialize your UI
 
-        return inflater!!.inflate(R.layout.fragment_pulse, container, false)
+        return inflater!!.inflate(R.layout.fragment_cows_pulse, container, false)
     }
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
@@ -59,7 +59,7 @@ class PulseFragment : Fragment(), BlockingStep {
     }
 
     override fun onBackClicked(callback: StepperLayout.OnBackClickedCallback) {
-        Toast.makeText(this.getContext(), "You went back a step!", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this.getContext(), "It\'s all good. You can come back!", Toast.LENGTH_SHORT).show()
         callback.goToPrevStep()
 
     }

@@ -26,7 +26,7 @@ class PupilFragment : Fragment(), BlockingStep {
 
         //initialize your UI
 
-        return inflater!!.inflate(R.layout.fragment_pupil, container, false)
+        return inflater!!.inflate(R.layout.fragment_cows_pupil, container, false)
     }
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

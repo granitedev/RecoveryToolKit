@@ -359,4 +359,10 @@
     <!--Summary-->
     <string name="cows_score">Cows Score</string>
 
+    <!--CIWA Description-->
+    <string name="cows_description">To assess the severity of symptoms clinicians typically use the Clinical Opiate Withdrawal Scale, COWS for short. Use our COWS scale below to test the severity of your withdrawals.</string>
+
+    <!--CIWA Button-->
+    <string name="cows_btn_title">COWS Scale</string>
+
 </resources>

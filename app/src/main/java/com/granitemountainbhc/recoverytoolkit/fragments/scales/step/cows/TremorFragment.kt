@@ -25,7 +25,7 @@ class TremorFragment : Fragment(), BlockingStep {
 
         //initialize your UI
 
-        return inflater!!.inflate(R.layout.fragment_tremor, container, false)
+        return inflater!!.inflate(R.layout.fragment_cows_tremor, container, false)
     }
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

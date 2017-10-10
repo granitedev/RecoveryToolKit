@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/ciwa_sweats"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ciwaSweatsGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio1"
+                android:tag="@string/ciwa_sweatsValue1"
+                android:text="@string/ciwa_sweats1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio2"
+                android:tag="@string/ciwa_sweatsValue2"
+                android:text="@string/ciwa_sweats2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio3"
+                android:tag="@string/ciwa_sweatsValue3"
+                android:text="@string/ciwa_sweats3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio4"
+                android:tag="@string/ciwa_sweatsValue4"
+                android:text="@string/ciwa_sweats4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio5"
+                android:tag="@string/ciwa_sweatsValue5"
+                android:text="@string/ciwa_sweats5" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio6"
+                android:tag="@string/ciwa_sweatsValue6"
+                android:text="@string/ciwa_sweats6" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio7"
+                android:tag="@string/ciwa_sweatsValue7"
+                android:text="@string/ciwa_sweats7" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_sweatsRadio8"
+                android:tag="@string/ciwa_sweatsValue8"
+                android:text="@string/ciwa_sweats8" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+</LinearLayout>

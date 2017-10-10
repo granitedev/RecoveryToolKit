@@ -1,15 +1,13 @@
 package com.granitemountainbhc.recoverytoolkit.fragments;
 
-/**
- * Created by a1d3n on 10/1/17.
- */
+
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
+
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
@@ -26,9 +24,7 @@ import android.widget.TextView;
 import com.granitemountainbhc.recoverytoolkit.activity.DetailActivity;
 import com.granitemountainbhc.recoverytoolkit.R;
 
-/**
- * Provides UI for the view with Cards.
- */
+
 public class CardContentFragment extends Fragment {
 
     @Override

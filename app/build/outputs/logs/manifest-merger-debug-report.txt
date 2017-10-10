@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:2:1-49:12
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:3:5-53
 		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
@@ -25,7 +25,7 @@ MERGED from [com.google.firebase:firebase-iid:11.4.2] /home/a1d3n/.android/build
 	android:name
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:8:5-47:19
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:8:5-51:19
 MERGED from [com.android.support:design:26.0.0] /home/a1d3n/.android/build-cache/bca2d2aaad6baeeb9654d2371c46f2f87758e0c4/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:transition:26.0.0] /home/a1d3n/.android/build-cache/b81ff9182c061048d3af90ed4b10dfcd691f2158/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:cardview-v7:26.0.0] /home/a1d3n/.android/build-cache/88b4c627dd77cc5cfb68c309ca9fce3c7075bfa5/output/AndroidManifest.xml:22:5-26:19
@@ -33,7 +33,7 @@ MERGED from [com.android.support:recyclerview-v7:26.0.0] /home/a1d3n/.android/bu
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/a1d3n/.android/build-cache/96f658cee2c2c5b469e57abd97c11d89adc31966/output/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/a1d3n/.android/build-cache/2673431d70026ec7fc9d0146c0c2ab72ada3cd09/output/AndroidManifest.xml:9:5-20
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/a1d3n/.android/build-cache/051bb904f049ff80d6676058a99b2e42230fb7fc/output/AndroidManifest.xml:11:5-20
-MERGED from [com.stepstone.stepper:material-stepper:4.3.0] /home/a1d3n/.android/build-cache/19b724275f5489d07a24eb27976b28aa2a4c695c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.stepstone.stepper:material-stepper:4.3.1] /home/a1d3n/.android/build-cache/8497abd9a5ff8e03a660414b0a63d95289c5b9b8/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0] /home/a1d3n/.android/build-cache/61105fd5db3fa96ed4b2f8d1a62a8366fe7c81db/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] /home/a1d3n/.android/build-cache/2d675f62edf726c97ed34e0db87204156dc5c4f9/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.0.0] /home/a1d3n/.android/build-cache/7c63537ee1b175cb9e43561d0378db2f74e0c834/output/AndroidManifest.xml:22:5-26:19
@@ -63,13 +63,13 @@ MERGED from [com.android.support:support-compat:26.0.0] /home/a1d3n/.android/bui
 	android:supportsRtl
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:16:9-35
 	android:elevation
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:10:9-32
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:11:9-32
 	android:fullBackupContent
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:15:9-56
 	android:configChanges
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:12:9-44
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:10:9-44
 	android:allowBackup
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:9:9-35
 	android:icon
@@ -104,58 +104,74 @@ ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManife
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:32:17-55
 	android:name
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:31:17-63
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.CiwaWithdrawalsActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:34:9-75
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:34:19-72
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.CowsWithdrawalsActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:35:9-75
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:35:19-72
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.WithdrawalScaleSelectActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:36:9-81
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:36:19-78
 activity#com.granitemountainbhc.recoverytoolkit.activity.PrivacyPolicyActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:34:9-68
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:37:9-68
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:34:19-65
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:37:19-65
 activity#com.granitemountainbhc.recoverytoolkit.activity.AboutUsActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:35:9-62
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:38:9-62
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:35:19-59
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:38:19-59
 activity#com.granitemountainbhc.recoverytoolkit.activity.LimitsActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:36:9-61
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:9-61
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:36:19-58
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:19-58
 activity#com.granitemountainbhc.recoverytoolkit.activity.ShameActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:37:9-60
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:9-60
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:37:19-57
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:19-57
 activity#com.granitemountainbhc.recoverytoolkit.activity.CompassionActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:38:9-65
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:9-65
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:38:19-62
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:19-62
 activity#com.granitemountainbhc.recoverytoolkit.activity.WorksheetsActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:9-65
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:42:9-65
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:19-62
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:42:19-62
 activity#com.granitemountainbhc.recoverytoolkit.activity.EbooksActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:9-61
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:43:9-61
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:19-58
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:43:19-58
 activity#com.granitemountainbhc.recoverytoolkit.activity.PrescreenActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:9-64
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:44:9-64
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:19-61
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:44:19-61
 activity#com.granitemountainbhc.recoverytoolkit.activity.IntakeActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:42:9-61
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:45:9-61
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:42:19-58
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:45:19-58
 activity#com.granitemountainbhc.recoverytoolkit.activity.HandbookActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:43:9-63
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:46:9-63
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:43:19-60
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:46:19-60
 activity#com.granitemountainbhc.recoverytoolkit.activity.ChatActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:44:9-59
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:47:9-59
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:44:19-56
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:47:19-56
 activity#com.granitemountainbhc.recoverytoolkit.activity.UserProfile
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:45:9-58
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:48:9-58
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:45:19-55
-activity#com.granitemountainbhc.recoverytoolkit.activity.WithdrawalsActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:46:9-75
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:48:19-55
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.ScalesDetailsActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:49:9-73
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:46:19-63
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:49:19-70
+activity#com.granitemountainbhc.recoverytoolkit.activity.RecyclerViewScaleWithdrawalsActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:50:9-92
+	android:name
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:50:19-80
 uses-sdk
 INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:26.0.0] /home/a1d3n/.android/build-cache/bca2d2aaad6baeeb9654d2371c46f2f87758e0c4/output/AndroidManifest.xml:21:5-23:62
@@ -166,11 +182,11 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/a1d3n
 MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/a1d3n/.android/build-cache/2673431d70026ec7fc9d0146c0c2ab72ada3cd09/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.jakewharton:butterknife:8.8.1] /home/a1d3n/.android/build-cache/2e1b32616ce4ea5bcb38f7c299734725dd7b38fe/output/AndroidManifest.xml:5:5-43
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/a1d3n/.android/build-cache/051bb904f049ff80d6676058a99b2e42230fb7fc/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.stepstone.stepper:material-stepper:4.3.0] /home/a1d3n/.android/build-cache/19b724275f5489d07a24eb27976b28aa2a4c695c/output/AndroidManifest.xml:21:5-23:41
+MERGED from [com.stepstone.stepper:material-stepper:4.3.1] /home/a1d3n/.android/build-cache/8497abd9a5ff8e03a660414b0a63d95289c5b9b8/output/AndroidManifest.xml:21:5-23:41
 MERGED from [com.android.support:appcompat-v7:26.0.0] /home/a1d3n/.android/build-cache/61105fd5db3fa96ed4b2f8d1a62a8366fe7c81db/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0] /home/a1d3n/.android/build-cache/2d675f62edf726c97ed34e0db87204156dc5c4f9/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0] /home/a1d3n/.android/build-cache/7c63537ee1b175cb9e43561d0378db2f74e0c834/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:multidex:1.0.1] /home/a1d3n/.android/build-cache/222dc35a143f460a01879bdc738abccf2a074444/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.2] /home/a1d3n/.android/build-cache/f5e939d9a0c3e7929c5270c195903441b0dfede1/output/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-database:11.4.2] /home/a1d3n/.android/build-cache/95a34b02775eb96bf2b519d5f71fbd9d41f45158/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-database-connection:11.4.2] /home/a1d3n/.android/build-cache/0adf36da9c3d2eb731be674ab2dac2f7eb2e3690/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] /home/a1d3n/.android/build-cache/14d6f2acc838e674a06ad2353bd084604117de9e/output/AndroidManifest.xml:4:5-43

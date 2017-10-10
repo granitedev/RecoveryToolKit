@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/ciwa_shakes"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ciwaShakesGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio1"
+                android:tag="@string/ciwa_shakesValue1"
+                android:text="@string/ciwa_shakes1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio2"
+                android:tag="@string/ciwa_shakesValue2"
+                android:text="@string/ciwa_shakes2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio3"
+                android:tag="@string/ciwa_shakesValue3"
+                android:text="@string/ciwa_shakes3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio4"
+                android:tag="@string/ciwa_shakesValue4"
+                android:text="@string/ciwa_shakes4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio5"
+                android:tag="@string/ciwa_shakesValue5"
+                android:text="@string/ciwa_shakes5" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio6"
+                android:tag="@string/ciwa_shakesValue6"
+                android:text="@string/ciwa_shakes6" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio7"
+                android:tag="@string/ciwa_shakesValue7"
+                android:text="@string/ciwa_shakes7" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio8"
+                android:tag="@string/ciwa_shakesValue8"
+                android:text="@string/ciwa_shakes8" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_shakesRadio9"
+                android:tag="@string/ciwa_shakesValue9"
+                android:text="@string/ciwa_shakes9" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+</LinearLayout>

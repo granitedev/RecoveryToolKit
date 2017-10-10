@@ -26,7 +26,7 @@ class RunnyFragment : Fragment(), BlockingStep {
 
         //initialize your UI
 
-        return inflater!!.inflate(R.layout.fragment_runny, container, false)
+        return inflater!!.inflate(R.layout.fragment_cows_runny, container, false)
     }
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="24" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -46,6 +46,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.MainActivity" />
         </activity>
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.CiwaWithdrawalsActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.CowsWithdrawalsActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.WithdrawalScaleSelectActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.PrivacyPolicyActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.AboutUsActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.LimitsActivity" />
@@ -58,7 +61,8 @@
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.HandbookActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.ChatActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.UserProfile" />
-        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.WithdrawalsActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.ScalesDetailsActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.RecyclerViewScaleWithdrawalsActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

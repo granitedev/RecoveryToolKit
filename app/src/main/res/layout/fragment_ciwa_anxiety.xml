@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/ciwa_anxiety"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ciwaAnxietyGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio1"
+                android:tag="@string/ciwa_anxietyValue1"
+                android:text="@string/ciwa_anxiety1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio2"
+                android:tag="@string/ciwa_anxietyValue2"
+                android:text="@string/ciwa_anxiety2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio3"
+                android:tag="@string/ciwa_anxietyValue3"
+                android:text="@string/ciwa_anxiety3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio4"
+                android:tag="@string/ciwa_anxietyValue4"
+                android:text="@string/ciwa_anxiety4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio5"
+                android:tag="@string/ciwa_anxietyValue5"
+                android:text="@string/ciwa_anxiety5" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio6"
+                android:tag="@string/ciwa_anxietyValue6"
+                android:text="@string/ciwa_anxiety6" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio7"
+                android:tag="@string/ciwa_anxietyValue7"
+                android:text="@string/ciwa_anxiety7" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_anxietyRadio8"
+                android:tag="@string/ciwa_anxietyValue8"
+                android:text="@string/ciwa_anxiety8" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+</LinearLayout>

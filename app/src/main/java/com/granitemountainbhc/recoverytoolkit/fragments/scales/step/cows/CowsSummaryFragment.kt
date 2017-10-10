@@ -2,6 +2,7 @@ package com.granitemountainbhc.recoverytoolkit.fragments.scales.step.cows
 
 import android.os.Bundle
 import android.os.Handler
+import android.support.annotation.UiThread
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,9 +29,11 @@ class CowsSummaryFragment : android.support.v4.app.Fragment(), BlockingStep {
         }, 0L)// delay open another fragment,
     }
 
+    @UiThread
     override fun onCompleteClicked(callback: StepperLayout.OnCompleteClickedCallback) {
-
+        Handler().postDelayed({ callback.complete() }, 1000L)
     }
+
     override fun onBackClicked(callback: StepperLayout.OnBackClickedCallback) {
         Toast.makeText(this.getContext(), "You went back a step", Toast.LENGTH_SHORT).show()
         callback.goToPrevStep()

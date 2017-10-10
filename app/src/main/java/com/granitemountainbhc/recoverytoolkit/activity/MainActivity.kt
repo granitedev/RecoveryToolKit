@@ -23,12 +23,10 @@ import com.granitemountainbhc.recoverytoolkit.fragments.CardContentFragment
 
 
 import butterknife.ButterKnife
+import com.granitemountainbhc.recoverytoolkit.activity.step.WithdrawalScaleSelectActivity
 import java.util.*
 
 
-/**
- * Provides UI for the main screen.
- */
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -101,7 +99,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
             R.id.stepperLayout -> {
                 // launch new intent instead of loading fragment
-                startActivity(Intent(this@MainActivity, WithdrawalsActivity::class.java))
+                startActivity(Intent(this@MainActivity, WithdrawalScaleSelectActivity::class.java))
                 mDrawerLayout!!.closeDrawers()
                 return true
             }

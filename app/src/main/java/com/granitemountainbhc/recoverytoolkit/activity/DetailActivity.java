@@ -1,8 +1,6 @@
 package com.granitemountainbhc.recoverytoolkit.activity;
 
-/**
- * Created by a1d3n on 10/1/17.
- */
+
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -15,9 +13,7 @@ import android.widget.TextView;
 
 import com.granitemountainbhc.recoverytoolkit.R;
 
-/**
- * Provides UI for the Detail page with Collapsing Toolbar.
- */
+
 public class DetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_POSITION = "position";

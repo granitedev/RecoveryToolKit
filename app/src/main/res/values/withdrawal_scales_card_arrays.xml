@@ -1,0 +1,32 @@
+<resources>
+    <string-array name="scale_name">
+        <item>COWS Scale</item>
+        <item>CIWA Scale</item>
+
+    </string-array>
+
+    <string-array name="scale_desc">
+        <item>The COWS scale is the withdrawal severity rating system typically used to measure Opioid withdrawal symptoms.
+        </item>
+        <item>The CIWS scale is the withdrawal severity rating system typically used to measure Alcohol withdrawal symptoms.</item>
+
+    </string-array>
+    <string-array name="scale_details">
+        <item>To assess the severity of symptoms clinicians typically use the
+            Clinical Opiate Withdrawal Scale, COWS for short. Use our COWS scale
+            below to test the severity of your withdrawals.
+        </item>
+        <item>The Clinical Institute Withdrawal Assessment for Alcohol, commonly
+            abbreviated as CIWA or CIWA-Ar (revised version), is a ten item scale used
+            in the assessment and management of alcohol withdrawal.
+        </item>
+
+    </string-array>
+
+
+    <array name="scale_picture">
+        <item>@drawable/depression</item>
+        <item>@drawable/anxiety</item>
+
+    </array>
+</resources>

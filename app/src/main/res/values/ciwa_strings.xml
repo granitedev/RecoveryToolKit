@@ -1,0 +1,529 @@
+<resources>
+
+    <!--Questions-->
+
+    <string name="ciwa_nausea">Do you feel sick to your stomach? Have you vomited?</string>
+    <string name="ciwa_shakes">Are you experiencing any shakiness or shakess? </string>
+    <string name="ciwa_sweats">How badly are you sweating?</string>
+    <string name="ciwa_anxiety">Do you feel nervous?</string>
+    <string name="ciwa_agitation">Are you agitated at all?</string>
+    <string name="ciwa_tactile">Have you any itching, pins and needles sensations, any burning, any numbness, or do you feel bugs crawling on or under your skin?</string>
+    <string name="ciwa_auditory">Are you more aware of sounds around you? Are they harsh? Do they frighten you? Are you hearing anything that is disturbing to you? Are you hearing things you know are not there?</string>
+    <string name="ciwa_visual">Does the light appear to be too bright? Is its color different? Does it hurt your eyes? Are you seeing anything that is disturbing to you? Are you seeing things you know are not there?</string>
+    <string name="ciwa_headaches">Does your head feel different? Does it feel like there is a band around your head? Do not rate for dizziness or lightheadedness.</string>
+    <string name="ciwa_orientation">What day is this? Where are you? Who am I?</string>
+
+
+    <!--Nausea responses-->
+    <string name="ciwa_nausea1">No nausea and no vomiting</string>
+    <string name="ciwa_nausea2">Mild nausea and no vomiting</string>
+    <string name="ciwa_nausea3">(More severe symptoms)</string>
+    <string name="ciwa_nausea4">(More severe symptoms)</string>
+    <string name="ciwa_nausea5">Intermittent nausea with dry heaves</string>
+    <string name="ciwa_nausea6">(More severe symptoms)</string>
+    <string name="ciwa_nausea7">(More severe symptoms)</string>
+    <string name="ciwa_nausea8">Constant nausea, frequent dry heaves and vomiting</string>
+
+    <!--Nausea Values-->
+    <string name="ciwa_nauseaValue1">0</string>
+    <string name="ciwa_nauseaValue2">1</string>
+    <string name="ciwa_nauseaValue3">2</string>
+    <string name="ciwa_nauseaValue4">3</string>
+    <string name="ciwa_nauseaValue5">4</string>
+    <string name="ciwa_nauseaValue6">5</string>
+    <string name="ciwa_nauseaValue7">6</string>
+    <string name="ciwa_nauseaValue8">7</string>
+
+    <!--Shakes responses-->
+    <string name="ciwa_shakes1">No shakes with arms extended and fingers spread apart</string>
+    <string name="ciwa_shakes2">No shakes</string>
+    <string name="ciwa_shakes3">Not visible, but can be felt fingertip to fingertip</string>
+    <string name="ciwa_shakes4">(More severe symptoms)</string>
+    <string name="ciwa_shakes5">(More severe symptoms)</string>
+    <string name="ciwa_shakes6">Moderate, with arms extended</string>
+    <string name="ciwa_shakes7">(More severe symptoms)</string>
+    <string name="ciwa_shakes8">(More severe symptoms)</string>
+    <string name="ciwa_shakes9">Severe, even with arms not extended</string>
+
+
+    <!--Shakes Values-->
+    <string name="ciwa_shakesValue1">0</string>
+    <string name="ciwa_shakesValue2">1</string>
+    <string name="ciwa_shakesValue3">2</string>
+    <string name="ciwa_shakesValue4">3</string>
+    <string name="ciwa_shakesValue5">4</string>
+    <string name="ciwa_shakesValue6">5</string>
+    <string name="ciwa_shakesValue7">6</string>
+    <string name="ciwa_shakesValue8">7</string>
+    <string name="ciwa_shakesValue9">8</string>
+
+    <!--Sweats responses-->
+    <string name="ciwa_sweats1">No sweat visible</string>
+    <string name="ciwa_sweats2">Barely perceptible sweating, palms moist</string>
+    <string name="ciwa_sweats3">(More severe symptoms)</string>
+    <string name="ciwa_sweats4">(More severe symptoms)</string>
+    <string name="ciwa_sweats5">Beads of sweat obvious on forehead</string>
+    <string name="ciwa_sweats6">(More severe symptoms)</string>
+    <string name="ciwa_sweats7">(More severe symptoms)</string>
+    <string name="ciwa_sweats8">Drenching sweats</string>
+
+    <!--Sweats Values-->
+    <string name="ciwa_sweatsValue1">0</string>
+    <string name="ciwa_sweatsValue2">1</string>
+    <string name="ciwa_sweatsValue3">2</string>
+    <string name="ciwa_sweatsValue4">3</string>
+    <string name="ciwa_sweatsValue5">4</string>
+    <string name="ciwa_sweatsValue6">5</string>
+    <string name="ciwa_sweatsValue7">6</string>
+    <string name="ciwa_sweatsValue8">7</string>
+
+    <!--Anxiety responses-->
+    <string name="ciwa_anxiety1">No anxiety, at ease</string>
+    <string name="ciwa_anxiety2">Mildly anxious</string>
+    <string name="ciwa_anxiety3">(More severe symptoms)</string>
+    <string name="ciwa_anxiety4">(More severe symptoms)</string>
+    <string name="ciwa_anxiety5">Moderately anxious, or guarded, so anxiety is inferred</string>
+    <string name="ciwa_anxiety6">(More severe symptoms)</string>
+    <string name="ciwa_anxiety7">(More severe symptoms)</string>
+    <string name="ciwa_anxiety8">Equivalent to acute panic states</string>
+
+    <!--Anxiety Values-->
+    <string name="ciwa_anxietyValue1">0</string>
+    <string name="ciwa_anxietyValue2">1</string>
+    <string name="ciwa_anxietyValue3">2</string>
+    <string name="ciwa_anxietyValue4">3</string>
+    <string name="ciwa_anxietyValue5">4</string>
+    <string name="ciwa_anxietyValue6">5</string>
+    <string name="ciwa_anxietyValue7">6</string>
+    <string name="ciwa_anxietyValue8">7</string>
+
+    <!--Agitation responses-->
+    <string name="ciwa_agitation1">Normal activity</string>
+    <string name="ciwa_agitation2">Somewhat more activity than normal activity</string>
+    <string name="ciwa_agitation3">(More severe symptoms)</string>
+    <string name="ciwa_agitation4">(More severe symptoms)</string>
+    <string name="ciwa_agitation5">Moderately fidgety and restless</string>
+    <string name="ciwa_agitation6">(More severe symptoms)</string>
+    <string name="ciwa_agitation7">(More severe symptoms)</string>
+    <string name="ciwa_agitation8">Pacing back and forth or constantly thrashing about</string>
+
+    <!--Agitation Values-->
+    <string name="ciwa_agitationValue1">0</string>
+    <string name="ciwa_agitationValue2">1</string>
+    <string name="ciwa_agitationValue3">2</string>
+    <string name="ciwa_agitationValue4">3</string>
+    <string name="ciwa_agitationValue5">4</string>
+    <string name="ciwa_agitationValue6">5</string>
+    <string name="ciwa_agitationValue7">6</string>
+    <string name="ciwa_agitationValue8">7</string>
+
+    <!--Tactile responses-->
+    <string name="ciwa_tactile1">None</string>
+    <string name="ciwa_tactile2">Very mild itching, pin and needles, burning, or numbness</string>
+    <string name="ciwa_tactile3">Mild itching, pin and needles, burning, or numbness</string>
+    <string name="ciwa_tactile4">Moderate itching, pin and needles, burning, or numbness</string>
+    <string name="ciwa_tactile5">Moderately severe hallucinations</string>
+    <string name="ciwa_tactile6">Severe hallucinations</string>
+    <string name="ciwa_tactile7">Extremely severe hallucinations</string>
+    <string name="ciwa_tactile8">Continuous hallucinations</string>
+
+
+    <!--Tactile Values-->
+    <string name="ciwa_tactileValue1">0</string>
+    <string name="ciwa_tactileValue2">1</string>
+    <string name="ciwa_tactileValue3">2</string>
+    <string name="ciwa_tactileValue4">3</string>
+    <string name="ciwa_tactileValue5">4</string>
+    <string name="ciwa_tactileValue6">5</string>
+    <string name="ciwa_tactileValue7">6</string>
+    <string name="ciwa_tactileValue8">7</string>
+
+    <!--Auditory responses-->
+    <string name="ciwa_auditory1">Not present</string>
+    <string name="ciwa_auditory2">Very mild harshness or ability or frighten</string>
+    <string name="ciwa_auditory3">Mild harshness or ability or frighten</string>
+    <string name="ciwa_auditory4">Moderate harshness or ability or frighten</string>
+    <string name="ciwa_auditory5">Moderately severe hallucinations</string>
+    <string name="ciwa_auditory6">Severe hallucinations</string>
+    <string name="ciwa_auditory7">Extremely severe hallucinations</string>
+    <string name="ciwa_auditory8">Continuous hallucinations</string>
+
+
+    <!--Auditory Values-->
+    <string name="ciwa_auditoryValue1">0</string>
+    <string name="ciwa_auditoryValue2">1</string>
+    <string name="ciwa_auditoryValue3">2</string>
+    <string name="ciwa_auditoryValue4">3</string>
+    <string name="ciwa_auditoryValue5">4</string>
+    <string name="ciwa_auditoryValue6">5</string>
+    <string name="ciwa_auditoryValue7">6</string>
+    <string name="ciwa_auditoryValue8">7</string>
+
+
+    <!--Visual responses-->
+    <string name="ciwa_visual1">Not present</string>
+    <string name="ciwa_visual2">Very mild sensitivity</string>
+    <string name="ciwa_visual3">Mild sensitivity</string>
+    <string name="ciwa_visual4">Moderate sensitivity</string>
+    <string name="ciwa_visual5">Moderately severe hallucinations</string>
+    <string name="ciwa_visual6">Severe hallucinations</string>
+    <string name="ciwa_visual7">Extremely severe hallucinations</string>
+    <string name="ciwa_visual8">Continuous hallucinations</string>
+
+    <!--Visual Values-->
+    <string name="ciwa_visualValue1">0</string>
+    <string name="ciwa_visualValue2">1</string>
+    <string name="ciwa_visualValue3">2</string>
+    <string name="ciwa_visualValue4">3</string>
+    <string name="ciwa_visualValue5">4</string>
+    <string name="ciwa_visualValue6">5</string>
+    <string name="ciwa_visualValue7">6</string>
+    <string name="ciwa_visualValue8">7</string>
+
+    <!--Headache responses-->
+    <string name="ciwa_headaches1">Not present</string>
+    <string name="ciwa_headaches2">Very mild</string>
+    <string name="ciwa_headaches3">Mild</string>
+    <string name="ciwa_headaches4">Moderate</string>
+    <string name="ciwa_headaches5">Moderately Severe</string>
+    <string name="ciwa_headaches6">Severe</string>
+    <string name="ciwa_headaches7">Very severe</string>
+    <string name="ciwa_headaches8">Extremely severe</string>
+
+
+    <!--Headache Values-->
+    <string name="ciwa_headachesValue1">0</string>
+    <string name="ciwa_headachesValue2">1</string>
+    <string name="ciwa_headachesValue3">2</string>
+    <string name="ciwa_headachesValue4">3</string>
+    <string name="ciwa_headachesValue5">4</string>
+    <string name="ciwa_headachesValue6">5</string>
+    <string name="ciwa_headachesValue7">6</string>
+    <string name="ciwa_headachesValue8">7</string>
+
+    <!--Orientation responses-->
+    <string name="ciwa_orientation1">Orientated, can do serial additions</string>
+    <string name="ciwa_orientation2">Can\'t do serial additions or is uncertain about date</string>
+    <string name="ciwa_orientation3">Disoriented for date by no more than 2 calendar days</string>
+    <string name="ciwa_orientation4">Disoriented for date by more than 2 calendar days</string>
+    <string name="ciwa_orientation5">Disoriented to place or person</string>
+
+    <!--Orientation Values-->
+    <string name="ciwa_orientationValue1">0</string>
+    <string name="ciwa_orientationValue2">1</string>
+    <string name="ciwa_orientationValue3">2</string>
+    <string name="ciwa_orientationValue4">3</string>
+    <string name="ciwa_orientationValue5">4</string>
+
+
+    <!--Group Arrays-->
+
+        <!--Ciwa-->
+
+            <!--Nausea-->
+
+    <string-array name="ciwa_nauseaGroup">
+        <item>Nausea Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio1">
+        <item>Nausea Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio2">
+        <item>Nausea Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio3">
+        <item>Nausea Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio4">
+        <item>Nausea Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio5">
+        <item>Nausea Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio6">
+        <item>Nausea Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio7">
+        <item>Nausea Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_nauseaRadio8">
+        <item>Nausea Radio Button 8</item>
+    </string-array>
+
+    <!--Shakes-->
+
+    <string-array name="ciwaShakesGroup">
+        <item>Shakes Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio1">
+        <item>Shakes Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio2">
+        <item>Shakes Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio3">
+        <item>Shakes Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio4">
+        <item>Shakes Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio5">
+        <item>Shakes Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio6">
+        <item>Shakes Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio7">
+        <item>Shakes Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio8">
+        <item>Shakes Radio Button 8</item>
+    </string-array>
+    <string-array name="ciwa_shakesRadio9">
+        <item>Shakes Radio Button 9</item>
+    </string-array>
+
+    <!--Sweats-->
+
+    <string-array name="ciwa_sweatsGroup">
+        <item>Sweats Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio1">
+        <item>Sweats Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio2">
+        <item>Sweats Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio3">
+        <item>Sweats Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio4">
+        <item>Sweats Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio5">
+        <item>Sweats Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio6">
+        <item>Sweats Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio7">
+        <item>Sweats Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_sweatsRadio8">
+        <item>Sweats Radio Button 8</item>
+    </string-array>
+
+    <!--Anxiety-->
+
+    <string-array name="ciwa_anxietyGroup">
+        <item>Anxiety Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio1">
+        <item>Anxiety Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio2">
+        <item>Anxiety Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio3">
+        <item>Anxiety Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio4">
+        <item>Anxiety Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio5">
+        <item>Anxiety Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio6">
+        <item>Anxiety Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio7">
+        <item>Anxiety Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_anxietyRadio8">
+        <item>Anxiety Radio Button 8</item>
+    </string-array>
+
+    <!--Agitation-->
+
+    <string-array name="ciwa_agitationGroup">
+        <item>Agitation Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio1">
+        <item>Agitation Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio2">
+        <item>Agitation Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio3">
+        <item>Agitation Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio4">
+        <item>Agitation Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio5">
+        <item>Agitation Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio6">
+        <item>Agitation Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio7">
+        <item>Agitation Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_agitationRadio8">
+        <item>Agitation Radio Button 8</item>
+    </string-array>
+
+    <!--Tactile-->
+
+    <string-array name="ciwa_tactileGroup">
+        <item>Tactile Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio1">
+        <item>Tactile Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio2">
+        <item>Tactile Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio3">
+        <item>Tactile Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio4">
+        <item>Tactile Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio5">
+        <item>Tactile Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio6">
+        <item>Tactile Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio7">
+        <item>Tactile Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_tactileRadio8">
+        <item>Tactile Radio Button 8</item>
+    </string-array>
+
+    <!--Auditory Upset-->
+
+    <string-array name="ciwa_auditoryGroup">
+        <item>Auditory Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio1">
+        <item>Auditory Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio2">
+        <item>Auditory Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio3">
+        <item>Auditory Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio4">
+        <item>Auditory Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio5">
+        <item>Auditory Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio6">
+        <item>Auditory Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio7">
+        <item>Auditory Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_auditoryRadio8">
+        <item>Auditory Radio Button 8</item>
+    </string-array>
+
+    <!--Visual-->
+
+    <string-array name="shakesGroup">
+        <item>Visual Radio Button Group</item>
+    </string-array>
+    <string-array name="shakesRadio1">
+        <item>Visual Radio Button 1</item>
+    </string-array>
+    <string-array name="shakesRadio2">
+        <item>Visual Radio Button 2</item>
+    </string-array>
+    <string-array name="shakesRadio3">
+        <item>Visual Radio Button 3</item>
+    </string-array>
+    <string-array name="shakesRadio4">
+        <item>Visual Radio Button 4</item>
+    </string-array>
+    <string-array name="shakesRadio5">
+        <item>Visual Radio Button 5</item>
+    </string-array>
+    <string-array name="shakesRadio6">
+        <item>Visual Radio Button 6</item>
+    </string-array>
+    <string-array name="shakesRadio7">
+        <item>Visual Radio Button 7</item>
+    </string-array>
+    <string-array name="shakesRadio8">
+        <item>Visual Radio Button 8</item>
+    </string-array>
+
+    <!--Headaches-->
+
+    <string-array name="ciwa_headachesGroup">
+        <item>Headaches Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio1">
+        <item>Headaches Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio2">
+        <item>Headaches Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio3">
+        <item>Headaches Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio4">
+        <item>Headaches Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio5">
+        <item>Headaches Radio Button 5</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio6">
+        <item>Headaches Radio Button 6</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio7">
+        <item>Headaches Radio Button 7</item>
+    </string-array>
+    <string-array name="ciwa_headachesRadio8">
+        <item>Headaches Radio Button 8</item>
+    </string-array>
+
+    <!--Orientation-->
+
+    <string-array name="ciwa_orientationGroup">
+        <item>Orientation Radio Button Group</item>
+    </string-array>
+    <string-array name="ciwa_orientationRadio1">
+        <item>Orientation Radio Button 1</item>
+    </string-array>
+    <string-array name="ciwa_orientationRadio2">
+        <item>Orientation Radio Button 2</item>
+    </string-array>
+    <string-array name="ciwa_orientationRadio3">
+        <item>Orientation Radio Button 3</item>
+    </string-array>
+    <string-array name="ciwa_orientationRadio4">
+        <item>Orientation Radio Button 4</item>
+    </string-array>
+    <string-array name="ciwa_orientationRadio5">
+        <item>Orientation Radio Button 5</item>
+    </string-array>
+
+    <!--Summary-->
+    <string name="ciwa_score">CIWA Score</string>
+
+    <!--CIWA Title-->
+    <string name="ciwa_title">CIWA Scale</string>
+
+    <!--CIWA Description-->
+    <string name="ciwa_description">The Clinical Institute Withdrawal Assessment for Alcohol, commonly abbreviated as CIWA or CIWA-Ar (revised version), is a ten item scale used in the assessment and management of alcohol withdrawal.</string>
+
+    <!--CIWA Button-->
+    <string name="ciwa_btn_title">CIWA Scale</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/ciwa_visual"
+            android:textColor="@color/colorPrimaryText" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ciwaVisualGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio1"
+                android:tag="@string/ciwa_visualValue1"
+                android:text="@string/ciwa_visual1" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio2"
+                android:tag="@string/ciwa_visualValue2"
+                android:text="@string/ciwa_visual2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio3"
+                android:tag="@string/ciwa_visualValue3"
+                android:text="@string/ciwa_visual3" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio4"
+                android:tag="@string/ciwa_visualValue4"
+                android:text="@string/ciwa_visual4" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio5"
+                android:tag="@string/ciwa_visualValue5"
+                android:text="@string/ciwa_visual5" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio6"
+                android:tag="@string/ciwa_visualValue6"
+                android:text="@string/ciwa_visual6" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio7"
+                android:tag="@string/ciwa_visualValue7"
+                android:text="@string/ciwa_visual7" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciwa_visualRadio8"
+                android:tag="@string/ciwa_visualValue8"
+                android:text="@string/ciwa_visual8" />
+        </RadioGroup>
+
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -2,24 +2,21 @@ package com.granitemountainbhc.recoverytoolkit.adapter.step
 
 import android.content.Context
 import android.os.Bundle
+import android.support.annotation.IntRange
 import android.support.v4.app.FragmentManager
-
+import com.granitemountainbhc.recoverytoolkit.R
+import com.granitemountainbhc.recoverytoolkit.fragments.scales.step.ciwa.*
 import com.stepstone.stepper.Step
 import com.stepstone.stepper.adapter.AbstractFragmentStepAdapter
 import com.stepstone.stepper.viewmodel.StepViewModel
-import android.support.annotation.IntRange
 
-import com.granitemountainbhc.recoverytoolkit.R
-import com.granitemountainbhc.recoverytoolkit.fragments.scales.step.cows.*
-
-
-class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentStepAdapter(fm, context) {
+class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentStepAdapter(fm, context) {
 
 
     override fun createStep(position: Int): Step? {
         when (position) {
             0 -> {
-                val step1 = PulseFragment()
+                val step1 = CiwaNauseaFragment()
                 val b1 = Bundle()
                 b1.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step1.arguments = b1
@@ -28,7 +25,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
 
 
             1 -> {
-                val step2 = SweatingFragment()
+                val step2 = CiwaTremorFragment()
                 val b2 = Bundle()
                 b2.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step2.arguments = b2
@@ -36,7 +33,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             2 -> {
-                val step3 = RestlessnessFragment()
+                val step3 = CiwaSweatsFragment()
                 val b3 = Bundle()
                 b3.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step3.arguments = b3
@@ -44,7 +41,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             3 -> {
-                val step4 = PupilFragment()
+                val step4 = CiwaAnxietyFragment()
                 val b4 = Bundle()
                 b4.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step4.arguments = b4
@@ -52,7 +49,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             4 -> {
-                val step5 = BoneFragment()
+                val step5 = CiwaAgitationFragment()
                 val b5 = Bundle()
                 b5.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step5.arguments = b5
@@ -60,7 +57,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             5 -> {
-                val step6 = RunnyFragment()
+                val step6 = CiwaTactileFragment()
                 val b6 = Bundle()
                 b6.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step6.arguments = b6
@@ -68,7 +65,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             6 -> {
-                val step7 = GiFragment()
+                val step7 = CiwaAuditoryFragment()
                 val b7 = Bundle()
                 b7.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step7.arguments = b7
@@ -76,7 +73,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             7 -> {
-                val step8 = TremorFragment()
+                val step8 = CiwaVisualFragment()
                 val b8 = Bundle()
                 b8.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step8.arguments = b8
@@ -84,7 +81,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             8 -> {
-                val step9 = YawningFragment()
+                val step9 = CiwaHeadachesFragment()
                 val b9 = Bundle()
                 b9.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step9.arguments = b9
@@ -92,7 +89,7 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             9 -> {
-                val step10 = AnxietyFragment()
+                val step10 = CiwaOrientationFragment()
                 val b10 = Bundle()
                 b10.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step10.arguments = b10
@@ -100,26 +97,20 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
             }
 
             10 -> {
-                val step11 = GoosefleshFragment()
+                val step11 = CiwaSummaryFragment()
                 val b11 = Bundle()
                 b11.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step11.arguments = b11
                 return step11
             }
 
-            11 -> {
-                val step12 = CowsSummaryFragment()
-                val b12 = Bundle()
-                b12.putInt(CURRENT_STEP_POSITION_KEY, position)
-                step12.arguments = b12
-                return step12
-            }
+
         }
         return null
     }
 
     override fun getCount(): Int {
-        return 12
+        return 11
     }
 
     override fun getViewModel(@IntRange(from = 0) position: Int): StepViewModel {
@@ -171,16 +162,12 @@ class StepperAdapter(fm: FragmentManager, context: Context) : AbstractFragmentSt
                     .setBackButtonLabel("Go back")
                     .setNextButtonEndDrawableResId(R.drawable.ic_arrow_forward_black_24dp)
                     .setBackButtonStartDrawableResId(R.drawable.ic_arrow_back_black_24dp)
+
             9 -> builder
-                    .setEndButtonLabel("This way")
-                    .setBackButtonLabel("Go back")
-                    .setNextButtonEndDrawableResId(R.drawable.ic_arrow_forward_black_24dp)
-                    .setBackButtonStartDrawableResId(R.drawable.ic_arrow_back_black_24dp)
-            10 -> builder
                     .setEndButtonLabel(R.string.go_to_summary)
                     .setBackButtonLabel("Go to first")
                     .setBackButtonStartDrawableResId(R.drawable.ic_arrow_back_black_24dp)
-            11 -> builder
+            10 -> builder
                     .setBackButtonLabel("Go back")
                     .setEndButtonLabel("I'm done!")
             else -> throw IllegalArgumentException("Unsupported position: " + position)
