@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_limits"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.granitemountainbhc.recoverytoolkit.activity.step.CowsWithdrawalsActivity"
+    android:fitsSystemWindows="true">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="What is your pattern?"
+        android:textColor="@color/colorPrimaryText"
+        android:fontFamily="@font/permanent_marker"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:text='Answer these questions, then select "Summary" to find out how your drinking pattern compares to those of other U.S. adults.'
+        android:textColor="@color/colorPrimaryText" />
+</LinearLayout>

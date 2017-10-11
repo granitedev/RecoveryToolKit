@@ -18,4 +18,5 @@
     app:ms_completeButtonBackground="@drawable/ms_button_background"
     app:ms_showBackButtonOnFirstStep="true"
     app:ms_showErrorState="true"
+    app:ms_stepperLayoutTheme="@style/StepperLayoutThemeWithCenteredCompleteButton"
     tools:theme="@style/MyMaterialTheme" />

@@ -36,9 +36,9 @@
         <activity android:name=".activity.step.WithdrawalScaleSelectActivity" />
         <activity android:name=".activity.PrivacyPolicyActivity" />
         <activity android:name=".activity.AboutUsActivity" />
-        <activity android:name=".activity.LimitsActivity" />
-        <activity android:name=".activity.ShameActivity" />
-        <activity android:name=".activity.CompassionActivity" />
+        <activity android:name=".activity.step.LimitsActivity" />
+        <activity android:name=".activity.step.ShameActivity" />
+        <activity android:name=".activity.step.CompassionActivity" />
         <activity android:name=".activity.WorksheetsActivity" />
         <activity android:name=".activity.EbooksActivity" />
         <activity android:name=".activity.PrescreenActivity" />
@@ -46,8 +46,11 @@
         <activity android:name=".activity.HandbookActivity" />
         <activity android:name=".activity.ChatActivity" />
         <activity android:name=".activity.UserProfile" />
-        <activity android:name=".activity.step.ScalesDetailsActivity" />
-        <activity android:name=".activity.RecyclerViewScaleWithdrawalsActivity"></activity>
+        <activity android:name=".activity.step.StyledProgressBarActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -15,6 +15,8 @@ import com.stepstone.stepper.VerificationError
 
 class CowsSummaryFragment : android.support.v4.app.Fragment(), BlockingStep {
 
+
+
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         //initialize your UI
@@ -32,6 +34,7 @@ class CowsSummaryFragment : android.support.v4.app.Fragment(), BlockingStep {
     @UiThread
     override fun onCompleteClicked(callback: StepperLayout.OnCompleteClickedCallback) {
         Handler().postDelayed({ callback.complete() }, 1000L)
+        getActivity().finish()
     }
 
     override fun onBackClicked(callback: StepperLayout.OnBackClickedCallback) {

@@ -7,10 +7,10 @@
     <string name="ciwa_sweats">How badly are you sweating?</string>
     <string name="ciwa_anxiety">Do you feel nervous?</string>
     <string name="ciwa_agitation">Are you agitated at all?</string>
-    <string name="ciwa_tactile">Have you any itching, pins and needles sensations, any burning, any numbness, or do you feel bugs crawling on or under your skin?</string>
-    <string name="ciwa_auditory">Are you more aware of sounds around you? Are they harsh? Do they frighten you? Are you hearing anything that is disturbing to you? Are you hearing things you know are not there?</string>
-    <string name="ciwa_visual">Does the light appear to be too bright? Is its color different? Does it hurt your eyes? Are you seeing anything that is disturbing to you? Are you seeing things you know are not there?</string>
-    <string name="ciwa_headaches">Does your head feel different? Does it feel like there is a band around your head? Do not rate for dizziness or lightheadedness.</string>
+    <string name="ciwa_tactile">Have you any itching, pins and needles sensations, burning, or numbness, bugs crawling on or under your skin?</string>
+    <string name="ciwa_auditory">Any sensitivity to sounds? Are they disturbing you? Are you hearing things that aren\'t there?</string>
+    <string name="ciwa_visual"> Are you seeing things that aren\'t real? Or sensitive to light?</string>
+    <string name="ciwa_headaches">Do you have headaches at all? Do not rate for dizziness or lightheadedness.</string>
     <string name="ciwa_orientation">What day is this? Where are you? Who am I?</string>
 
 

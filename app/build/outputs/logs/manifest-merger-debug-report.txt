@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:2:1-53:12
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:3:5-53
 		INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml
@@ -25,7 +25,7 @@ MERGED from [com.google.firebase:firebase-iid:11.4.2] /home/a1d3n/.android/build
 	android:name
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:8:5-51:19
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:8:5-54:19
 MERGED from [com.android.support:design:26.0.0] /home/a1d3n/.android/build-cache/bca2d2aaad6baeeb9654d2371c46f2f87758e0c4/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:transition:26.0.0] /home/a1d3n/.android/build-cache/b81ff9182c061048d3af90ed4b10dfcd691f2158/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:cardview-v7:26.0.0] /home/a1d3n/.android/build-cache/88b4c627dd77cc5cfb68c309ca9fce3c7075bfa5/output/AndroidManifest.xml:22:5-26:19
@@ -124,18 +124,18 @@ activity#com.granitemountainbhc.recoverytoolkit.activity.AboutUsActivity
 ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:38:9-62
 	android:name
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:38:19-59
-activity#com.granitemountainbhc.recoverytoolkit.activity.LimitsActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:9-61
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.LimitsActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:9-66
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:19-58
-activity#com.granitemountainbhc.recoverytoolkit.activity.ShameActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:9-60
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:39:19-63
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.ShameActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:9-65
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:19-57
-activity#com.granitemountainbhc.recoverytoolkit.activity.CompassionActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:9-65
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:40:19-62
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.CompassionActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:9-70
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:19-62
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:41:19-67
 activity#com.granitemountainbhc.recoverytoolkit.activity.WorksheetsActivity
 ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:42:9-65
 	android:name
@@ -164,14 +164,16 @@ activity#com.granitemountainbhc.recoverytoolkit.activity.UserProfile
 ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:48:9-58
 	android:name
 		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:48:19-55
-activity#com.granitemountainbhc.recoverytoolkit.activity.step.ScalesDetailsActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:49:9-73
+activity#com.granitemountainbhc.recoverytoolkit.activity.step.StyledProgressBarActivity
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:49:9-77
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:49:19-70
-activity#com.granitemountainbhc.recoverytoolkit.activity.RecyclerViewScaleWithdrawalsActivity
-ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:50:9-92
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:49:19-74
+meta-data#preloaded_fonts
+ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:51:9-53:57
+	android:resource
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:53:13-54
 	android:name
-		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:50:19-80
+		ADDED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml:52:13-43
 uses-sdk
 INJECTED from /home/a1d3n/StudioProjects/RecoveryToolKit/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:26.0.0] /home/a1d3n/.android/build-cache/bca2d2aaad6baeeb9654d2371c46f2f87758e0c4/output/AndroidManifest.xml:21:5-23:62

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="compassion_q1">I\'m disapproving and judgmental about my own flaws and inadequacies.</string>
+    <string name="compassion_q2">When I\'m feeling down I tend to obsess and fixate on everything that\'s wrong.</string>
+    <string name="compassion_q3">When things are going badly for me, I see the difficulties as part of life that everyone goes through.</string>
+    <string name="compassion_q4">When I think about my inadequacies, it tends to make me feel more separate and cut off from the rest of the world.</string>
+    <string name="compassion_q5">I try to be loving towards myself when I\'m feeling emotional pain.</string>
+    <string name="compassion_q6">When I fail at something important to me I become consumed by feelings of inadequacy.</string>
+    <string name="compassion_q7">When I\'m down and out, I remind myself that there are lots of other people in the world feeling like I am.</string>
+    <string name="compassion_q8">When times are really difficult, I tend to be tough on myself.</string>
+    <string name="compassion_q9">When something upsets me I try to keep my emotions in balance.</string>
+    <string name="compassion_q10">When I feel inadequate in some way, I try to remind myself that feelings of inadequacy are shared by most people.</string>
+    <string name="compassion_q11">I\'m intolerant and impatient towards those aspects of my personality I don\'t like.</string>
+    <string name="compassion_q12">When I\'m going through a very hard time, I give myself the caring and tenderness I need.</string>
+    <string name="compassion_q13">When I\'m feeling down, I tend to feel like most other people are probably happier than I am.</string>
+    <string name="compassion_q14">When something painful happens I try to take a balanced view of the situation.</string>
+    <string name="compassion_q15">I try to see my failings as part of the human condition.</string>
+    <string name="compassion_q16">When I see aspects of myself that I don\'t like, I get down on myself.</string>
+    <string name="compassion_q17">When I fail at something important to me I try to keep things in perspective.</string>
+    <string name="compassion_q18">When I\'m really struggling, I tend to feel like other people must be having an easier time of it.</string>
+    <string name="compassion_q19">I\'m kind to myself when I\'m experiencing suffering.</string>
+    <string name="compassion_q20">When something upsets me I get carried away with my feelings.</string>
+    <string name="compassion_q21">I can be a bit cold-hearted towards myself when I\'m experiencing suffering.</string>
+    <string name="compassion_q22">When I\'m feeling down I try to approach my feelings with curiosity and openness.</string>
+    <string name="compassion_q23">I\'m tolerant of my own flaws and inadequacies.</string>
+    <string name="compassion_q24">When something painful happens I tend to blow the incident out of proportion.</string>
+    <string name="compassion_q25">When I fail at something that\'s important to me, I tend to feel alone in my failure.</string>
+    <string name="compassion_q26">I try to be understanding and patient towards those aspects of my personality I don\'t like.</string>
+
+    <string name="compassion_title">Self-Compassion Scale</string>
+    <string name="compassion_source">Neff, K. D. (2016). The Self-Compassion Scale is a valid and theoretically coherent measure of self-compassion.
+        Mindfulness, 7, 264–274</string>
+    <string name="compassion_desc">The Self-Compassion Scale (SCS) was created to specifically capture this way of being kind and
+        understanding towards oneself in moments of turmoil. </string>
+
+
+</resources>

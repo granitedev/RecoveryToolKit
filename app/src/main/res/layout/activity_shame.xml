@@ -5,7 +5,7 @@
     android:id="@+id/nav_withdrawals"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.granitemountainbhc.recoverytoolkit.activity.ShameActivity"
+    tools:context="com.granitemountainbhc.recoverytoolkit.activity.step.ShameActivity"
     android:fitsSystemWindows="true">
 
     <android.support.design.widget.AppBarLayout

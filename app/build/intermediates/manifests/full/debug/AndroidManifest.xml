@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="16"
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -51,9 +51,9 @@
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.WithdrawalScaleSelectActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.PrivacyPolicyActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.AboutUsActivity" />
-        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.LimitsActivity" />
-        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.ShameActivity" />
-        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.CompassionActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.LimitsActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.ShameActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.CompassionActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.WorksheetsActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.EbooksActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.PrescreenActivity" />
@@ -61,9 +61,11 @@
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.HandbookActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.ChatActivity" />
         <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.UserProfile" />
-        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.ScalesDetailsActivity" />
-        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.RecyclerViewScaleWithdrawalsActivity" />
+        <activity android:name="com.granitemountainbhc.recoverytoolkit.activity.step.StyledProgressBarActivity" />
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.0.0" />

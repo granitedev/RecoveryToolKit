@@ -41,4 +41,6 @@
 
     <dimen name="profile_width">75dp</dimen>
     <dimen name="profile_height">75dp</dimen>
+
+    <dimen name="seekbar_thumb_width">25dp</dimen>
 </resources>

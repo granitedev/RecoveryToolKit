@@ -19,7 +19,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
     override fun createStep(position: Int): Step? {
         when (position) {
             0 -> {
-                val step1 = PulseFragment()
+                val step1 = PulseFragment.newInstance(R.layout.fragment_cows_pulse)
                 val b1 = Bundle()
                 b1.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step1.arguments = b1
@@ -28,7 +28,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
 
 
             1 -> {
-                val step2 = SweatingFragment()
+                val step2 = SweatingFragment.newInstance(R.layout.fragment_cows_sweating)
                 val b2 = Bundle()
                 b2.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step2.arguments = b2
@@ -36,7 +36,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             2 -> {
-                val step3 = RestlessnessFragment()
+                val step3 = RestlessnessFragment.newInstance(R.layout.fragment_cows_restlessness)
                 val b3 = Bundle()
                 b3.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step3.arguments = b3
@@ -44,7 +44,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             3 -> {
-                val step4 = PupilFragment()
+                val step4 = PupilFragment.newInstance(R.layout.fragment_cows_pupil)
                 val b4 = Bundle()
                 b4.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step4.arguments = b4
@@ -52,7 +52,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             4 -> {
-                val step5 = BoneFragment()
+                val step5 = BoneFragment.newInstance(R.layout.fragment_cows_bone)
                 val b5 = Bundle()
                 b5.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step5.arguments = b5
@@ -60,7 +60,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             5 -> {
-                val step6 = RunnyFragment()
+                val step6 = RunnyFragment.newInstance(R.layout.fragment_cows_runny)
                 val b6 = Bundle()
                 b6.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step6.arguments = b6
@@ -68,7 +68,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             6 -> {
-                val step7 = GiFragment()
+                val step7 = GiFragment.newInstance(R.layout.fragment_cows_gi)
                 val b7 = Bundle()
                 b7.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step7.arguments = b7
@@ -76,7 +76,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             7 -> {
-                val step8 = TremorFragment()
+                val step8 = TremorFragment.newInstance(R.layout.fragment_cows_tremor)
                 val b8 = Bundle()
                 b8.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step8.arguments = b8
@@ -84,7 +84,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             8 -> {
-                val step9 = YawningFragment()
+                val step9 = YawningFragment.newInstance(R.layout.fragment_cows_yawning)
                 val b9 = Bundle()
                 b9.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step9.arguments = b9
@@ -92,7 +92,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             9 -> {
-                val step10 = AnxietyFragment()
+                val step10 = AnxietyFragment.newInstance(R.layout.fragment_cows_anxiety)
                 val b10 = Bundle()
                 b10.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step10.arguments = b10
@@ -100,7 +100,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             10 -> {
-                val step11 = GoosefleshFragment()
+                val step11 = GoosefleshFragment.newInstance(R.layout.fragment_cows_gooseflesh)
                 val b11 = Bundle()
                 b11.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step11.arguments = b11
@@ -178,7 +178,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
                     .setBackButtonStartDrawableResId(R.drawable.ic_arrow_back_black_24dp)
             10 -> builder
                     .setEndButtonLabel(R.string.go_to_summary)
-                    .setBackButtonLabel("Go to first")
+                    .setBackButtonLabel("Go Back")
                     .setBackButtonStartDrawableResId(R.drawable.ic_arrow_back_black_24dp)
             11 -> builder
                     .setBackButtonLabel("Go back")
@@ -191,7 +191,7 @@ class CowsStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
     companion object {
 
 
-        private val CURRENT_STEP_POSITION_KEY = "messageResourceId"
+        private val CURRENT_STEP_POSITION_KEY = "position"
     }
 
 }

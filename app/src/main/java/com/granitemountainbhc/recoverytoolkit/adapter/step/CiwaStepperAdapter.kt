@@ -16,7 +16,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
     override fun createStep(position: Int): Step? {
         when (position) {
             0 -> {
-                val step1 = CiwaNauseaFragment()
+                val step1 = CiwaNauseaFragment.newInstance(R.layout.fragment_ciwa_nausea)
                 val b1 = Bundle()
                 b1.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step1.arguments = b1
@@ -25,7 +25,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
 
 
             1 -> {
-                val step2 = CiwaTremorFragment()
+                val step2 = CiwaTremorFragment.newInstance(R.layout.fragment_ciwa_shakes)
                 val b2 = Bundle()
                 b2.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step2.arguments = b2
@@ -33,7 +33,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             2 -> {
-                val step3 = CiwaSweatsFragment()
+                val step3 = CiwaSweatsFragment.newInstance(R.layout.fragment_ciwa_sweats)
                 val b3 = Bundle()
                 b3.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step3.arguments = b3
@@ -41,7 +41,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             3 -> {
-                val step4 = CiwaAnxietyFragment()
+                val step4 = CiwaAnxietyFragment.newInstance(R.layout.fragment_ciwa_anxiety)
                 val b4 = Bundle()
                 b4.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step4.arguments = b4
@@ -49,7 +49,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             4 -> {
-                val step5 = CiwaAgitationFragment()
+                val step5 = CiwaAgitationFragment.newInstance(R.layout.fragment_ciwa_agitation)
                 val b5 = Bundle()
                 b5.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step5.arguments = b5
@@ -57,7 +57,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             5 -> {
-                val step6 = CiwaTactileFragment()
+                val step6 = CiwaTactileFragment.newInstance(R.layout.fragment_ciwa_tactile)
                 val b6 = Bundle()
                 b6.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step6.arguments = b6
@@ -65,7 +65,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             6 -> {
-                val step7 = CiwaAuditoryFragment()
+                val step7 = CiwaAuditoryFragment.newInstance(R.layout.fragment_ciwa_auditory)
                 val b7 = Bundle()
                 b7.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step7.arguments = b7
@@ -73,7 +73,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             7 -> {
-                val step8 = CiwaVisualFragment()
+                val step8 = CiwaVisualFragment.newInstance(R.layout.fragment_ciwa_visual)
                 val b8 = Bundle()
                 b8.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step8.arguments = b8
@@ -81,7 +81,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             8 -> {
-                val step9 = CiwaHeadachesFragment()
+                val step9 = CiwaHeadachesFragment.newInstance(R.layout.fragment_ciwa_headaches)
                 val b9 = Bundle()
                 b9.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step9.arguments = b9
@@ -89,7 +89,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
             }
 
             9 -> {
-                val step10 = CiwaOrientationFragment()
+                val step10 = CiwaOrientationFragment.newInstance(R.layout.fragment_ciwa_orientation)
                 val b10 = Bundle()
                 b10.putInt(CURRENT_STEP_POSITION_KEY, position)
                 step10.arguments = b10
@@ -165,7 +165,7 @@ class CiwaStepperAdapter(fm: FragmentManager, context: Context) : AbstractFragme
 
             9 -> builder
                     .setEndButtonLabel(R.string.go_to_summary)
-                    .setBackButtonLabel("Go to first")
+                    .setBackButtonLabel("Go Back")
                     .setBackButtonStartDrawableResId(R.drawable.ic_arrow_back_black_24dp)
             10 -> builder
                     .setBackButtonLabel("Go back")

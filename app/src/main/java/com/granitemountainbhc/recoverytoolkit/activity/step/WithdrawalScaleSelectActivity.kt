@@ -2,22 +2,24 @@ package com.granitemountainbhc.recoverytoolkit.activity.step
 
 
 import android.app.Activity
+
 import android.content.Intent
 import android.os.Bundle
 
 import android.view.View
 import android.widget.Button
 
+
 import com.granitemountainbhc.recoverytoolkit.R
 
-
-
+//TODO Make it so it takes you back to the main activity
 
 class WithdrawalScaleSelectActivity : Activity(), View.OnClickListener {
 
 
     lateinit var buttonCows: Button
     lateinit var buttonCiwa: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,7 +44,6 @@ class WithdrawalScaleSelectActivity : Activity(), View.OnClickListener {
             else -> {
             }
         }
-
     }
 }
 

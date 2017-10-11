@@ -23,6 +23,9 @@ import com.granitemountainbhc.recoverytoolkit.fragments.CardContentFragment
 
 
 import butterknife.ButterKnife
+import com.granitemountainbhc.recoverytoolkit.activity.step.CompassionActivity
+import com.granitemountainbhc.recoverytoolkit.activity.step.LimitsActivity
+import com.granitemountainbhc.recoverytoolkit.activity.step.ShameActivity
 import com.granitemountainbhc.recoverytoolkit.activity.step.WithdrawalScaleSelectActivity
 import java.util.*
 

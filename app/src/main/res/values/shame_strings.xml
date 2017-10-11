@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shameQ1">After realizing you have received too much change at a store,
+        you decide to keep it because the salesclerk doesn\'t notice. What is the likelihood
+        that you would feel uncomfortable about keeping the money?</string>
+
+    <string name="shameQ2">You are privately informed that you are the only one in your group that did not
+make the honor society because you skipped too many days of school. What is the likelihood
+that this would lead you to become more responsible about attending school?  </string>
+
+    <string name="shameQ3">You rip an article out of a journal in the library and take it with you. Your teacher
+discovers what you did and tells the librarian and your entire class. What is the likelihood that
+this would make you would feel like a bad person?  </string>
+
+    <string name="shameQ4">After making a big mistake on an important project at work in which people were
+depending on you, your boss criticizes you in front of your coworkers. What is the likelihood
+that you would feign sickness and leave work?</string>
+
+    <string name="shameQ5">You reveal a friend’s secret, though your friend never finds out. What is the
+likelihood that your failure to keep the secret would lead you to exert extra effort to keep
+secrets in the future?</string>
+
+    <string name="shameQ6">You give a bad presentation at work. Afterwards your boss tells your coworkers it
+was your fault that your company lost the contract. What is the likelihood that you would feel
+incompetent?  </string>
+
+    <string name="shameQ7">A friend tells you that you boast a great deal. What is the likelihood that you would
+stop spending time with that friend?  </string>
+
+    <string name="shameQ8">Your home is very messy and unexpected guests knock on your door and invite
+themselves in. What is the likelihood that you would avoid the guests until they leave? </string>
+
+    <string name="shameQ9">You secretly commit a felony. What is the likelihood that you would feel remorse
+about breaking the law?</string>
+
+    <string name="shameQ10">You successfully exaggerate your damages in a lawsuit. Months later, your lies are
+discovered and you are charged with perjury. What is the likelihood that you would think you
+are a despicable human being?  </string>
+
+    <string name="shameQ11">You strongly defend a point of view in a discussion, and though nobody was aware
+of it, you realize that you were wrong. What is the likelihood that this would make you think
+more carefully before you speak?  </string>
+
+    <string name="shameQ12">You take office supplies home for personal use and are caught by your boss. What
+is the likelihood that this would lead you to quit your job?</string>
+
+    <string name="shameQ13">You make a mistake at work and find out a coworker is blamed for the error. Later,
+your coworker confronts you about your mistake. What is the likelihood that you would feel
+like a coward?  </string>
+
+    <string name="shameQ14">At a coworker’s housewarming party, you spill red wine on their new cream‐colored carpet.
+        You cover the stain with a chair so that nobody notices your mess. What is the
+likelihood that you would feel that the way you acted was pathetic?</string>
+
+    <string name="shameQ15">While discussing a heated subject with friends, you suddenly realize you are
+shouting though nobody seems to notice. What is the likelihood that you would try to act more
+considerately toward your friends?</string>
+
+    <string name="shameQ16">You lie to people but they never find out about it. What is the likelihood that you
+would feel terrible about the lies you told?</string>
+
+
+<string name="shame_title">The GASP Scale</string>
+    <string name="shame_desc">A new measure of guilt and shame proneness.
+        Guilt and Shame Proness (GASP) scale measures individual differences in the propensity to
+        experience guilt and shame across a range of personal transgressions.
+    </string>
+<string name="shame_source">Cohen, T. R., Wolf, S. T., Panter, A. T., and Insko, C. A. (2011).
+    Introducing the GASP scale: A new measure of guilt and shame proneness. Journal of Personality
+    and Social Psychology, 5, 947-966. doi:10.1037/a0022641</string>
+
+</resources>
